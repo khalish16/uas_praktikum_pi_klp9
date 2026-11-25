@@ -1,0 +1,482 @@
+{
+  "demos": [
+    {
+      "query": "hujan malam di stasiun",
+      "model": "bm25_custom",
+      "parameters": {
+        "alpha": 1.0,
+        "beta": 0.75,
+        "gamma": 0.15
+      },
+      "relevant_doc_ids": [
+        "CERPEN-0079",
+        "CERPEN-0321"
+      ],
+      "non_relevant_doc_ids": [
+        "CERPEN-0585"
+      ],
+      "original_query_terms": [
+        "hujan",
+        "malam",
+        "stasiun"
+      ],
+      "weighted_query_terms": [
+        {
+          "term": "stasiun",
+          "weight": 0.844,
+          "from_original_query": true
+        },
+        {
+          "term": "hujan",
+          "weight": 0.5262,
+          "from_original_query": true
+        },
+        {
+          "term": "malam",
+          "weight": 0.2751,
+          "from_original_query": true
+        },
+        {
+          "term": "sampan",
+          "weight": 0.0712,
+          "from_original_query": false
+        },
+        {
+          "term": "dermaga",
+          "weight": 0.0622,
+          "from_original_query": false
+        },
+        {
+          "term": "apartemen",
+          "weight": 0.0601,
+          "from_original_query": false
+        },
+        {
+          "term": "gadis",
+          "weight": 0.0567,
+          "from_original_query": false
+        },
+        {
+          "term": "balkon",
+          "weight": 0.0556,
+          "from_original_query": false
+        },
+        {
+          "term": "benda",
+          "weight": 0.0502,
+          "from_original_query": false
+        },
+        {
+          "term": "geram",
+          "weight": 0.0488,
+          "from_original_query": false
+        },
+        {
+          "term": "degup",
+          "weight": 0.0461,
+          "from_original_query": false
+        },
+        {
+          "term": "istri",
+          "weight": 0.0453,
+          "from_original_query": false
+        }
+      ],
+      "initial_top_results": [
+        {
+          "rank": 1,
+          "lucene_doc_id": 34,
+          "doc_id": "CERPEN-0035",
+          "title": "Kala itu Hujan Belum Reda",
+          "author": "WS. Djambak",
+          "source": "BasaBasi.co",
+          "date": "2026-02-13",
+          "url": "https://basabasi.co/kala-itu-hujan-belum-reda/",
+          "score": 6.1776,
+          "snippet": "...Siaran televisi sudah beralih pada ramalan cuaca yang mengabarkan bahwa curah hujan sebesar 50 mm selama beberapa hari ke depan. Aku tidak begitu paham maksudnya, namun yang kutahu, sepanjang hari ini futon tidak bisa dijemur. Kain cucianku juga sudah berbau apek. Matahari sudah lama tidak muncul di Prefektur Kagawa. Terpenting, hatiku ju...",
+          "snippet_html": "...Siaran televisi sudah beralih pada ramalan cuaca yang mengabarkan bahwa curah <mark>hujan</mark> sebesar 50 mm selama beberapa hari ke depan. Aku tidak begitu paham maksudnya, namun yang kutahu, sepanjang hari ini futon tidak bisa dijemur. Kain cucianku juga sudah berbau apek. Matahari sudah lama tidak muncul di Prefektur Kagawa. Terpenting, hatiku ju...",
+          "word_count": 2068
+        },
+        {
+          "rank": 2,
+          "lucene_doc_id": 78,
+          "doc_id": "CERPEN-0079",
+          "title": "TARIAN HUJAN",
+          "author": "Daisy Rahmi",
+          "source": "BasaBasi.co",
+          "date": "2025-02-07",
+          "url": "https://basabasi.co/tarian-hujan/",
+          "score": 6.0695,
+          "snippet": "...air.” Kau berpaling kesal ke arahnya seakan-akan semua salahnya. “Kemarin malam hujan, kan?” Matanya mengerjap dan buru-buru mengangguk. Ia memberanikan diri untuk bertanya. “Tambah kopinya?” Kausodorkan cangkir. Bergegas mendekat, ia raih teko dari atas meja makan kemudian menuangkan air kecokelatan, berhenti satu senti sebelum bibir can...",
+          "snippet_html": "...air.” Kau berpaling kesal ke arahnya seakan-akan semua salahnya. “Kemarin <mark>malam</mark> <mark>hujan</mark>, kan?” Matanya mengerjap dan buru-buru mengangguk. Ia memberanikan diri untuk bertanya. “Tambah kopinya?” Kausodorkan cangkir. Bergegas mendekat, ia raih teko dari atas meja makan kemudian menuangkan air kecokelatan, berhenti satu senti sebelum bibir can...",
+          "word_count": 1322
+        },
+        {
+          "rank": 3,
+          "lucene_doc_id": 172,
+          "doc_id": "CERPEN-0173",
+          "title": "Kesaksian Pawang Hujan",
+          "author": "S. Prasetyo Utomo",
+          "source": "BasaBasi.co",
+          "date": "2022-04-08",
+          "url": "https://basabasi.co/kesaksian-pawang-hujan/",
+          "score": 5.5718,
+          "snippet": "SAAT rumah di sudut gang dikontrak Lik Tarko, seorang pawang hujan, beberapa orang kampung menampakkan perangai tak suka. Hari pertama Lik Tarko membawa keluarganya pindah rumah, dalam kenduri yang diselenggarakan, orang-orang melihat banyak pusaka keris terpasang di dinding kamar yang kosong. Hanya hamparan tikar dan aglo pembakaran keme...",
+          "snippet_html": "SAAT rumah di sudut gang dikontrak Lik Tarko, seorang pawang <mark>hujan</mark>, beberapa orang kampung menampakkan perangai tak suka. Hari pertama Lik Tarko membawa keluarganya pindah rumah, dalam kenduri yang diselenggarakan, orang-orang melihat banyak pusaka keris terpasang di dinding kamar yang kosong. Hanya hamparan tikar dan aglo pembakaran keme...",
+          "word_count": 1112
+        },
+        {
+          "rank": 4,
+          "lucene_doc_id": 320,
+          "doc_id": "CERPEN-0321",
+          "title": "Kucing yang Terbelah di Kota Hujan",
+          "author": "Bamby Cahyadi",
+          "source": "BasaBasi.co",
+          "date": "2018-11-09",
+          "url": "https://basabasi.co/kucing-yang-terbelah-di-kota-hujan/",
+          "score": 4.9976,
+          "snippet": "Di kota ini hujan turun setiap saat dengan cara yang berbeda-beda setiap waktu. Terkadang seharian kota ini dilanda hujan gerimis yang nyaris tak menyentuh kulit. Namun lebih sering saat pagi atau di tengah malam hujan lebat dan merata turun di seluruh bagian kota. Warga kota menyebutnya hujan berdegup, karena irama hujan lebat ini teratu...",
+          "snippet_html": "Di kota ini <mark>hujan</mark> turun setiap saat dengan cara yang berbeda-beda setiap waktu. Terkadang seharian kota ini dilanda <mark>hujan</mark> gerimis yang nyaris tak menyentuh kulit. Namun lebih sering saat pagi atau di tengah <mark>malam</mark> <mark>hujan</mark> lebat dan merata turun di seluruh bagian kota. Warga kota menyebutnya <mark>hujan</mark> berdegup, karena irama <mark>hujan</mark> lebat ini teratu...",
+          "word_count": 1472
+        },
+        {
+          "rank": 5,
+          "lucene_doc_id": 584,
+          "doc_id": "CERPEN-0585",
+          "title": "Mayat, Hujan, dan Jilat-menjilat",
+          "author": "BACAPETRA.CO",
+          "source": "BacaPetra.co",
+          "date": "2023-05-07",
+          "url": "https://www.bacapetra.co/mayat-hujan-dan-jilat-menjilat/",
+          "score": 4.9017,
+          "snippet": "...setiap Sabtu atau Minggu—lalu aku tanpa sengaja membunuhnya pada Sabtu sore, dan hujan datang tiba-tiba. *** “Ketika seseorang baru mati,” kata Kakak, duduk di birai jendela, “hujan akan membuatnya hidup kembali. Aku serius.” Aku bertanya apa hubungan antara hujan dengan mayat yang hidup kembali. Kakak meniupkan asap rokok lurus ke arah m...",
+          "snippet_html": "...setiap Sabtu atau Minggu—lalu aku tanpa sengaja membunuhnya pada Sabtu sore, dan <mark>hujan</mark> datang tiba-tiba. *** “Ketika seseorang baru mati,” kata Kakak, duduk di birai jendela, “<mark>hujan</mark> akan membuatnya hidup kembali. Aku serius.” Aku bertanya apa hubungan antara <mark>hujan</mark> dengan mayat yang hidup kembali. Kakak meniupkan asap rokok lurus ke arah m...",
+          "word_count": 1443
+        }
+      ],
+      "refined_results": [
+        {
+          "rank": 1,
+          "lucene_doc_id": 320,
+          "doc_id": "CERPEN-0321",
+          "title": "Kucing yang Terbelah di Kota Hujan",
+          "author": "Bamby Cahyadi",
+          "source": "BasaBasi.co",
+          "date": "2018-11-09",
+          "url": "https://basabasi.co/kucing-yang-terbelah-di-kota-hujan/",
+          "score": 3.7349,
+          "snippet": "Di kota ini hujan turun setiap saat dengan cara yang berbeda-beda setiap waktu. Terkadang seharian kota ini dilanda hujan gerimis yang nyaris tak menyentuh kulit. Namun lebih sering saat pagi atau di tengah malam hujan lebat dan merata turun di seluruh bagian kota. Warga kota menyebutnya hujan berdegup, karena irama hujan lebat ini teratu...",
+          "snippet_html": "Di kota ini <mark>hujan</mark> turun setiap saat dengan cara yang berbeda-beda setiap waktu. Terkadang seharian kota ini dilanda <mark>hujan</mark> gerimis yang nyaris tak menyentuh kulit. Namun lebih sering saat pagi atau di tengah <mark>malam</mark> <mark>hujan</mark> lebat dan merata turun di seluruh bagian kota. Warga kota menyebutnya <mark>hujan</mark> <mark>berdegup</mark>, karena irama <mark>hujan</mark> lebat ini teratu...",
+          "word_count": 1472,
+          "previous_rank": 4,
+          "rank_change": 3
+        },
+        {
+          "rank": 2,
+          "lucene_doc_id": 78,
+          "doc_id": "CERPEN-0079",
+          "title": "TARIAN HUJAN",
+          "author": "Daisy Rahmi",
+          "source": "BasaBasi.co",
+          "date": "2025-02-07",
+          "url": "https://basabasi.co/tarian-hujan/",
+          "score": 3.3817,
+          "snippet": "...air.” Kau berpaling kesal ke arahnya seakan-akan semua salahnya. “Kemarin malam hujan, kan?” Matanya mengerjap dan buru-buru mengangguk. Ia memberanikan diri untuk bertanya. “Tambah kopinya?” Kausodorkan cangkir. Bergegas mendekat, ia raih teko dari atas meja makan kemudian menuangkan air kecokelatan, berhenti satu senti sebelum bibir can...",
+          "snippet_html": "...air.” Kau berpaling kesal ke arahnya seakan-akan semua salahnya. “Kemarin <mark>malam</mark> <mark>hujan</mark>, kan?” Matanya mengerjap dan buru-buru mengangguk. Ia memberanikan diri untuk bertanya. “Tambah kopinya?” Kausodorkan cangkir. Bergegas mendekat, ia raih teko dari atas meja makan kemudian menuangkan air kecokelatan, berhenti satu senti sebelum bibir can...",
+          "word_count": 1322,
+          "previous_rank": 2,
+          "rank_change": 0
+        },
+        {
+          "rank": 3,
+          "lucene_doc_id": 34,
+          "doc_id": "CERPEN-0035",
+          "title": "Kala itu Hujan Belum Reda",
+          "author": "WS. Djambak",
+          "source": "BasaBasi.co",
+          "date": "2026-02-13",
+          "url": "https://basabasi.co/kala-itu-hujan-belum-reda/",
+          "score": 3.3078,
+          "snippet": "...Siaran televisi sudah beralih pada ramalan cuaca yang mengabarkan bahwa curah hujan sebesar 50 mm selama beberapa hari ke depan. Aku tidak begitu paham maksudnya, namun yang kutahu, sepanjang hari ini futon tidak bisa dijemur. Kain cucianku juga sudah berbau apek. Matahari sudah lama tidak muncul di Prefektur Kagawa. Terpenting, hatiku ju...",
+          "snippet_html": "...Siaran televisi sudah beralih pada ramalan cuaca yang mengabarkan bahwa curah <mark>hujan</mark> sebesar 50 mm selama beberapa hari ke depan. Aku tidak begitu paham maksudnya, namun yang kutahu, sepanjang hari ini futon tidak bisa dijemur. Kain cucianku juga sudah berbau apek. Matahari sudah lama tidak muncul di Prefektur Kagawa. Terpenting, hatiku ju...",
+          "word_count": 2068,
+          "previous_rank": 1,
+          "rank_change": -2
+        },
+        {
+          "rank": 4,
+          "lucene_doc_id": 441,
+          "doc_id": "CERPEN-0442",
+          "title": "Pelangi yang Jatuh di Sidareja",
+          "author": "Sungging Raga",
+          "source": "BasaBasi.co",
+          "date": "2015-12-11",
+          "url": "https://basabasi.co/pelangi-yang-jatuh-di-sidareja/",
+          "score": 3.2009,
+          "snippet": "Selalu ada pelangi yang jatuh di Stasiun Sidareja sehabis hujan, dan selalu ada gadis kecil yang mengambilnya untuk dibawa pulang. Begitulah yang diceritakan beberapa temanku sesama penggemar kereta api, “Datanglah ke Sidareja di musim penghujan, kau akan melihat gadis kecil yang senang mengumpulkan pelangi.” Aku memang suka menjelajahi b...",
+          "snippet_html": "Selalu ada pelangi yang jatuh di <mark>Stasiun</mark> Sidareja sehabis <mark>hujan</mark>, dan selalu ada <mark>gadis</mark> kecil yang mengambilnya untuk dibawa pulang. Begitulah yang diceritakan beberapa temanku sesama penggemar kereta api, “Datanglah ke Sidareja di musim <mark>penghujan</mark>, kau akan melihat <mark>gadis</mark> kecil yang senang mengumpulkan pelangi.” Aku memang suka menjelajahi b...",
+          "word_count": 1185,
+          "previous_rank": null,
+          "rank_change": null
+        },
+        {
+          "rank": 5,
+          "lucene_doc_id": 172,
+          "doc_id": "CERPEN-0173",
+          "title": "Kesaksian Pawang Hujan",
+          "author": "S. Prasetyo Utomo",
+          "source": "BasaBasi.co",
+          "date": "2022-04-08",
+          "url": "https://basabasi.co/kesaksian-pawang-hujan/",
+          "score": 2.9011,
+          "snippet": "SAAT rumah di sudut gang dikontrak Lik Tarko, seorang pawang hujan, beberapa orang kampung menampakkan perangai tak suka. Hari pertama Lik Tarko membawa keluarganya pindah rumah, dalam kenduri yang diselenggarakan, orang-orang melihat banyak pusaka keris terpasang di dinding kamar yang kosong. Hanya hamparan tikar dan aglo pembakaran keme...",
+          "snippet_html": "SAAT rumah di sudut gang dikontrak Lik Tarko, seorang pawang <mark>hujan</mark>, beberapa orang kampung menampakkan perangai tak suka. Hari pertama Lik Tarko membawa keluarganya pindah rumah, dalam kenduri yang diselenggarakan, orang-orang melihat banyak pusaka keris terpasang di dinding kamar yang kosong. Hanya hamparan tikar dan aglo pembakaran keme...",
+          "word_count": 1112,
+          "previous_rank": 3,
+          "rank_change": -2
+        }
+      ],
+      "total_hits": 646,
+      "latency_ms": 5.71
+    },
+    {
+      "query": "rindu ibu di kampung",
+      "model": "bm25_custom",
+      "parameters": {
+        "alpha": 1.0,
+        "beta": 0.75,
+        "gamma": 0.15
+      },
+      "relevant_doc_ids": [
+        "CERPEN-0584",
+        "CERPEN-0389"
+      ],
+      "non_relevant_doc_ids": [
+        "CERPEN-0209"
+      ],
+      "original_query_terms": [
+        "rindu",
+        "ibu",
+        "kampung"
+      ],
+      "weighted_query_terms": [
+        {
+          "term": "rindu",
+          "weight": 0.7742,
+          "from_original_query": true
+        },
+        {
+          "term": "kampung",
+          "weight": 0.572,
+          "from_original_query": true
+        },
+        {
+          "term": "ibu",
+          "weight": 0.4106,
+          "from_original_query": true
+        },
+        {
+          "term": "azazel",
+          "weight": 0.113,
+          "from_original_query": false
+        },
+        {
+          "term": "apel",
+          "weight": 0.0976,
+          "from_original_query": false
+        },
+        {
+          "term": "aclima",
+          "weight": 0.081,
+          "from_original_query": false
+        },
+        {
+          "term": "guntur",
+          "weight": 0.0798,
+          "from_original_query": false
+        },
+        {
+          "term": "julia",
+          "weight": 0.0709,
+          "from_original_query": false
+        },
+        {
+          "term": "arga",
+          "weight": 0.0649,
+          "from_original_query": false
+        },
+        {
+          "term": "kemeja",
+          "weight": 0.0545,
+          "from_original_query": false
+        },
+        {
+          "term": "kakek",
+          "weight": 0.0528,
+          "from_original_query": false
+        },
+        {
+          "term": "pria",
+          "weight": 0.0526,
+          "from_original_query": false
+        }
+      ],
+      "initial_top_results": [
+        {
+          "rank": 1,
+          "lucene_doc_id": 39,
+          "doc_id": "CERPEN-0040",
+          "title": "Lelucon Kampung Kami",
+          "author": "Ken Hanggara",
+          "source": "BasaBasi.co",
+          "date": "2026-01-02",
+          "url": "https://basabasi.co/lelucon-kampung-kami/",
+          "score": 5.9851,
+          "snippet": "...meniru, sehingga pada suatu hari yang membosankan, lelucon- lelucon mulai dibuat. Lelucon yang bertahan lama, yakni lelucon tentang mayat koruptor tidak berkepala yang terdampar di tepi sungai itu, sempat diharapkan oleh seorang yang lumayan sinting di antara kami, untuk menjadi nyata. Sebut saja Mugeni. Orang ini sejak dulu terkenal sint...",
+          "snippet_html": "...meniru, sehingga pada suatu hari yang membosankan, lelucon- lelucon mulai <mark>dibuat</mark>. Lelucon yang bertahan lama, yakni lelucon tentang mayat koruptor tidak berkepala yang terdampar di tepi sungai itu, sempat diharapkan oleh seorang yang lumayan sinting di antara kami, untuk menjadi nyata. Sebut saja Mugeni. Orang ini sejak dulu terkenal sint...",
+          "word_count": 1200
+        },
+        {
+          "rank": 2,
+          "lucene_doc_id": 583,
+          "doc_id": "CERPEN-0584",
+          "title": "Pria Tua Itu Menerima Apel Pemberianmu yang Rasanya Mengingatkannya kepada Kampung Halamannya",
+          "author": "BACAPETRA.CO",
+          "source": "BacaPetra.co",
+          "date": "2023-05-17",
+          "url": "https://www.bacapetra.co/pria-tua-itu-menerima-apel-pemberianmu-yang-rasanya-mengingatkannya-kepada-kampung-halamannya/",
+          "score": 5.9733,
+          "snippet": "...kepada pria tua itu sepulang sekolah. Suatu saat, kamu tahu bahwa pria tua itu merindukan kampung halamannya. Dia ingin pulang. Dia telah begitu lelah untuk mengembara lagi. “Aku sudah begitu tua, tubuhku sering pegal-pegal, persendianku rasanya sakit sekali, Gadis Kecil,” katanya setelah menggigit apel pemberianmu. Sesekali kamu berjongk...",
+          "snippet_html": "...kepada pria tua itu sepulang sekolah. Suatu saat, kamu tahu bahwa pria tua itu <mark>merindukan</mark> <mark>kampung</mark> halamannya. Dia ingin pulang. Dia telah begitu lelah untuk mengembara lagi. “Aku sudah begitu tua, tubuhku sering pegal-pegal, persendianku rasanya sakit sekali, Gadis Kecil,” katanya setelah menggigit apel pemberianmu. Sesekali kamu berjongk...",
+          "word_count": 1738
+        },
+        {
+          "rank": 3,
+          "lucene_doc_id": 65,
+          "doc_id": "CERPEN-0066",
+          "title": "Dapur di Kepala Ibu",
+          "author": "Luluq Intan",
+          "source": "BasaBasi.co",
+          "date": "2025-06-20",
+          "url": "https://basabasi.co/dapur-di-kepala-ibu/",
+          "score": 5.9232,
+          "snippet": "...menjadi ruang dapur yang panjang. Sejak hari itu, saat aku marah, saat aku rindu, atau saat dunia terlalu sunyi, terkadang dari ubun-ubunku mengepul aroma sambal tomat, semur, atau kuah kaldu ayam yang gurih. Tapi, tak ada masakan yang terhidang. Karena itu, aku belum berani membuka warung. Tungku ini masih kupelajari pelan-pelan. Masih c...",
+          "snippet_html": "...menjadi ruang dapur yang panjang. Sejak hari itu, saat aku marah, saat aku <mark>rindu</mark>, atau saat dunia terlalu sunyi, terkadang dari ubun-ubunku mengepul aroma sambal tomat, semur, atau kuah kaldu ayam yang gurih. Tapi, tak ada masakan yang terhidang. Karena itu, aku belum berani membuka warung. Tungku ini masih kupelajari pelan-pelan. Masih c...",
+          "word_count": 1238
+        },
+        {
+          "rank": 4,
+          "lucene_doc_id": 388,
+          "doc_id": "CERPEN-0389",
+          "title": "Perempuan yang Merindu dan Empat Puluh Empat Pernikahan",
+          "author": "Rani Evadewi",
+          "source": "BasaBasi.co",
+          "date": "2017-03-31",
+          "url": "https://basabasi.co/perempuan-yang-merindu-dan-empat-puluh-empat-pernikahan/",
+          "score": 5.7167,
+          "snippet": "...tersungging senyum di bibir. Rasanya aku bisa merasakan sakitnya kamu menahan rindu yang kadang melebihi sakit kepala sekalipun. Kalau sudah begitu, tak ada yang bisa mengalahkan bau tubuh Guntur yang bisa segera kamu nikmati melalui kemeja biru tua itu. Aku sendiri kurang yakin apa yang membuat kemeja itu masih memiliki bau yang kuat yan...",
+          "snippet_html": "...tersungging senyum di bibir. Rasanya aku bisa merasakan sakitnya kamu menahan <mark>rindu</mark> yang kadang melebihi sakit kepala sekalipun. Kalau sudah begitu, tak ada yang bisa mengalahkan bau tubuh Guntur yang bisa segera kamu nikmati melalui kemeja biru tua itu. Aku sendiri kurang yakin apa yang membuat kemeja itu masih memiliki bau yang kuat yan...",
+          "word_count": 2224
+        },
+        {
+          "rank": 5,
+          "lucene_doc_id": 208,
+          "doc_id": "CERPEN-0209",
+          "title": "Pulang ke Kampung Asing",
+          "author": "A. Warits Rovi",
+          "source": "BasaBasi.co",
+          "date": "2021-07-23",
+          "url": "https://basabasi.co/pulang-ke-kampung-asing/",
+          "score": 5.6227,
+          "snippet": "...kampung ini sudah tinggal yang tua-tua. Kalaupun masih ada yang muda, mereka sibuk mengurusi pekerjaannya, seakan tak mau kalah dengan mereka yang merantau. Di antara rumah-rumah yang mentereng itu, terbentanglah jalan kotor dan rimbun semak yang tumbuh liar. Suatu ketika aku menempuh jalan senyap itu. Iseng kupungut selembar daun nangka....",
+          "snippet_html": "...<mark>kampung</mark> ini sudah tinggal yang tua-tua. Kalaupun masih ada yang muda, mereka <mark>sibuk</mark> mengurusi pekerjaannya, seakan tak mau kalah dengan mereka yang merantau. Di antara rumah-rumah yang mentereng itu, terbentanglah jalan kotor dan rimbun semak yang tumbuh liar. Suatu ketika aku menempuh jalan senyap itu. Iseng kupungut selembar daun nangka....",
+          "word_count": 1462
+        }
+      ],
+      "refined_results": [
+        {
+          "rank": 1,
+          "lucene_doc_id": 583,
+          "doc_id": "CERPEN-0584",
+          "title": "Pria Tua Itu Menerima Apel Pemberianmu yang Rasanya Mengingatkannya kepada Kampung Halamannya",
+          "author": "BACAPETRA.CO",
+          "source": "BacaPetra.co",
+          "date": "2023-05-17",
+          "url": "https://www.bacapetra.co/pria-tua-itu-menerima-apel-pemberianmu-yang-rasanya-mengingatkannya-kepada-kampung-halamannya/",
+          "score": 5.7273,
+          "snippet": "...kepada pria tua itu sepulang sekolah. Suatu saat, kamu tahu bahwa pria tua itu merindukan kampung halamannya. Dia ingin pulang. Dia telah begitu lelah untuk mengembara lagi. “Aku sudah begitu tua, tubuhku sering pegal-pegal, persendianku rasanya sakit sekali, Gadis Kecil,” katanya setelah menggigit apel pemberianmu. Sesekali kamu berjongk...",
+          "snippet_html": "...kepada <mark>pria</mark> tua itu sepulang sekolah. Suatu saat, kamu tahu bahwa <mark>pria</mark> tua itu <mark>merindukan</mark> <mark>kampung</mark> halamannya. Dia ingin pulang. Dia telah begitu lelah untuk mengembara lagi. “Aku sudah begitu tua, tubuhku sering pegal-pegal, persendianku rasanya sakit sekali, Gadis Kecil,” katanya setelah menggigit <mark>apel</mark> pemberianmu. Sesekali kamu berjongk...",
+          "word_count": 1738,
+          "previous_rank": 2,
+          "rank_change": 1
+        },
+        {
+          "rank": 2,
+          "lucene_doc_id": 388,
+          "doc_id": "CERPEN-0389",
+          "title": "Perempuan yang Merindu dan Empat Puluh Empat Pernikahan",
+          "author": "Rani Evadewi",
+          "source": "BasaBasi.co",
+          "date": "2017-03-31",
+          "url": "https://basabasi.co/perempuan-yang-merindu-dan-empat-puluh-empat-pernikahan/",
+          "score": 5.5455,
+          "snippet": "...tersungging senyum di bibir. Rasanya aku bisa merasakan sakitnya kamu menahan rindu yang kadang melebihi sakit kepala sekalipun. Kalau sudah begitu, tak ada yang bisa mengalahkan bau tubuh Guntur yang bisa segera kamu nikmati melalui kemeja biru tua itu. Aku sendiri kurang yakin apa yang membuat kemeja itu masih memiliki bau yang kuat yan...",
+          "snippet_html": "...tersungging senyum di bibir. Rasanya aku bisa merasakan sakitnya kamu menahan <mark>rindu</mark> yang kadang melebihi sakit kepala sekalipun. Kalau sudah begitu, tak ada yang bisa mengalahkan bau tubuh <mark>Guntur</mark> yang bisa segera kamu nikmati melalui <mark>kemeja</mark> biru tua itu. Aku sendiri kurang yakin apa yang membuat <mark>kemeja</mark> itu masih memiliki bau yang kuat yan...",
+          "word_count": 2224,
+          "previous_rank": 4,
+          "rank_change": 2
+        },
+        {
+          "rank": 3,
+          "lucene_doc_id": 39,
+          "doc_id": "CERPEN-0040",
+          "title": "Lelucon Kampung Kami",
+          "author": "Ken Hanggara",
+          "source": "BasaBasi.co",
+          "date": "2026-01-02",
+          "url": "https://basabasi.co/lelucon-kampung-kami/",
+          "score": 3.3794,
+          "snippet": "...meniru, sehingga pada suatu hari yang membosankan, lelucon- lelucon mulai dibuat. Lelucon yang bertahan lama, yakni lelucon tentang mayat koruptor tidak berkepala yang terdampar di tepi sungai itu, sempat diharapkan oleh seorang yang lumayan sinting di antara kami, untuk menjadi nyata. Sebut saja Mugeni. Orang ini sejak dulu terkenal sint...",
+          "snippet_html": "...meniru, sehingga pada suatu hari yang membosankan, lelucon- lelucon mulai <mark>dibuat</mark>. Lelucon yang bertahan lama, yakni lelucon tentang mayat koruptor tidak berkepala yang terdampar di tepi sungai itu, sempat diharapkan oleh seorang yang lumayan sinting di antara kami, untuk menjadi nyata. Sebut saja Mugeni. Orang ini sejak dulu terkenal sint...",
+          "word_count": 1200,
+          "previous_rank": 1,
+          "rank_change": -2
+        },
+        {
+          "rank": 4,
+          "lucene_doc_id": 208,
+          "doc_id": "CERPEN-0209",
+          "title": "Pulang ke Kampung Asing",
+          "author": "A. Warits Rovi",
+          "source": "BasaBasi.co",
+          "date": "2021-07-23",
+          "url": "https://basabasi.co/pulang-ke-kampung-asing/",
+          "score": 3.2321,
+          "snippet": "...kampung ini sudah tinggal yang tua-tua. Kalaupun masih ada yang muda, mereka sibuk mengurusi pekerjaannya, seakan tak mau kalah dengan mereka yang merantau. Di antara rumah-rumah yang mentereng itu, terbentanglah jalan kotor dan rimbun semak yang tumbuh liar. Suatu ketika aku menempuh jalan senyap itu. Iseng kupungut selembar daun nangka....",
+          "snippet_html": "...<mark>kampung</mark> ini sudah tinggal yang tua-tua. Kalaupun masih ada yang muda, mereka <mark>sibuk</mark> mengurusi pekerjaannya, seakan tak mau kalah dengan mereka yang merantau. Di antara rumah-rumah yang mentereng itu, terbentanglah jalan kotor dan rimbun semak yang tumbuh liar. Suatu ketika aku menempuh jalan senyap itu. Iseng kupungut selembar daun nangka....",
+          "word_count": 1462,
+          "previous_rank": 5,
+          "rank_change": 1
+        },
+        {
+          "rank": 5,
+          "lucene_doc_id": 65,
+          "doc_id": "CERPEN-0066",
+          "title": "Dapur di Kepala Ibu",
+          "author": "Luluq Intan",
+          "source": "BasaBasi.co",
+          "date": "2025-06-20",
+          "url": "https://basabasi.co/dapur-di-kepala-ibu/",
+          "score": 2.8775,
+          "snippet": "...menjadi ruang dapur yang panjang. Sejak hari itu, saat aku marah, saat aku rindu, atau saat dunia terlalu sunyi, terkadang dari ubun-ubunku mengepul aroma sambal tomat, semur, atau kuah kaldu ayam yang gurih. Tapi, tak ada masakan yang terhidang. Karena itu, aku belum berani membuka warung. Tungku ini masih kupelajari pelan-pelan. Masih c...",
+          "snippet_html": "...menjadi ruang dapur yang panjang. Sejak hari itu, saat aku marah, saat aku <mark>rindu</mark>, atau saat dunia terlalu sunyi, terkadang dari ubun-ubunku mengepul aroma sambal tomat, semur, atau kuah kaldu ayam yang gurih. Tapi, tak ada masakan yang terhidang. Karena itu, aku belum berani membuka warung. Tungku ini masih kupelajari pelan-pelan. Masih c...",
+          "word_count": 1238,
+          "previous_rank": 3,
+          "rank_change": -2
+        }
+      ],
+      "total_hits": 569,
+      "latency_ms": 6.72
+    }
+  ]
+}

@@ -1,0 +1,560 @@
+{
+  "dictionary_pair_count": 28,
+  "indexed_synonym_keys": 117,
+  "proof_queries": [
+    {
+      "raw_query": "hujan malam sunyi",
+      "tokens_before": [
+        "hujan",
+        "malam",
+        "sunyi"
+      ],
+      "tokens_after": [
+        "hujan",
+        "deras",
+        "gerimis",
+        "mendung",
+        "malam",
+        "gelap",
+        "gulita",
+        "kelam",
+        "sunyi",
+        "hening",
+        "senyap",
+        "sepi"
+      ],
+      "added_synonyms": {
+        "hujan": [
+          "deras",
+          "gerimis",
+          "mendung"
+        ],
+        "malam": [
+          "gelap",
+          "gulita",
+          "kelam"
+        ],
+        "sunyi": [
+          "hening",
+          "senyap",
+          "sepi"
+        ]
+      },
+      "total_hits_before": 588,
+      "total_hits_after": 640,
+      "top5_before": [
+        {
+          "doc_id": "CERPEN-0412",
+          "title": "Sunyi Sungai",
+          "score": 7.7587
+        },
+        {
+          "doc_id": "CERPEN-0173",
+          "title": "Kesaksian Pawang Hujan",
+          "score": 6.4207
+        },
+        {
+          "doc_id": "CERPEN-0035",
+          "title": "Kala itu Hujan Belum Reda",
+          "score": 6.1776
+        },
+        {
+          "doc_id": "CERPEN-0079",
+          "title": "TARIAN HUJAN",
+          "score": 6.0695
+        },
+        {
+          "doc_id": "CERPEN-0552",
+          "title": "Lagu Malam yang Terpenggal",
+          "score": 5.1117
+        }
+      ],
+      "top5_after": [
+        {
+          "doc_id": "CERPEN-0173",
+          "title": "Kesaksian Pawang Hujan",
+          "score": 10.0662
+        },
+        {
+          "doc_id": "CERPEN-0035",
+          "title": "Kala itu Hujan Belum Reda",
+          "score": 8.6429
+        },
+        {
+          "doc_id": "CERPEN-0412",
+          "title": "Sunyi Sungai",
+          "score": 8.1504
+        },
+        {
+          "doc_id": "CERPEN-0321",
+          "title": "Kucing yang Terbelah di Kota Hujan",
+          "score": 7.9938
+        },
+        {
+          "doc_id": "CERPEN-0486",
+          "title": "Seekor Dupan Terbang di Gelap Malam",
+          "score": 6.5605
+        }
+      ]
+    },
+    {
+      "raw_query": "rindu ibu di kampung",
+      "tokens_before": [
+        "rindu",
+        "ibu",
+        "kampung"
+      ],
+      "tokens_after": [
+        "rindu",
+        "damba",
+        "kangen",
+        "kenang",
+        "ibu",
+        "bunda",
+        "emak",
+        "mama",
+        "kampung",
+        "desa",
+        "dusun"
+      ],
+      "added_synonyms": {
+        "rindu": [
+          "damba",
+          "kangen",
+          "kenang"
+        ],
+        "ibu": [
+          "bunda",
+          "emak",
+          "mama"
+        ],
+        "kampung": [
+          "desa",
+          "dusun"
+        ]
+      },
+      "total_hits_before": 520,
+      "total_hits_after": 585,
+      "top5_before": [
+        {
+          "doc_id": "CERPEN-0040",
+          "title": "Lelucon Kampung Kami",
+          "score": 5.9851
+        },
+        {
+          "doc_id": "CERPEN-0584",
+          "title": "Pria Tua Itu Menerima Apel Pemberianmu yang Rasanya Mengingatkannya kepada Kampung Halamannya",
+          "score": 5.9733
+        },
+        {
+          "doc_id": "CERPEN-0066",
+          "title": "Dapur di Kepala Ibu",
+          "score": 5.9232
+        },
+        {
+          "doc_id": "CERPEN-0389",
+          "title": "Perempuan yang Merindu dan Empat Puluh Empat Pernikahan",
+          "score": 5.7167
+        },
+        {
+          "doc_id": "CERPEN-0209",
+          "title": "Pulang ke Kampung Asing",
+          "score": 5.6227
+        }
+      ],
+      "top5_after": [
+        {
+          "doc_id": "CERPEN-0066",
+          "title": "Dapur di Kepala Ibu",
+          "score": 6.9157
+        },
+        {
+          "doc_id": "CERPEN-0209",
+          "title": "Pulang ke Kampung Asing",
+          "score": 6.3924
+        },
+        {
+          "doc_id": "CERPEN-0040",
+          "title": "Lelucon Kampung Kami",
+          "score": 6.3489
+        },
+        {
+          "doc_id": "CERPEN-0584",
+          "title": "Pria Tua Itu Menerima Apel Pemberianmu yang Rasanya Mengingatkannya kepada Kampung Halamannya",
+          "score": 6.2847
+        },
+        {
+          "doc_id": "CERPEN-0389",
+          "title": "Perempuan yang Merindu dan Empat Puluh Empat Pernikahan",
+          "score": 6.2615
+        }
+      ]
+    },
+    {
+      "raw_query": "cinta sedih di pantai",
+      "tokens_before": [
+        "cinta",
+        "sedih",
+        "pantai"
+      ],
+      "tokens_after": [
+        "cinta",
+        "asmara",
+        "kasih",
+        "sayang",
+        "sedih",
+        "duka",
+        "lara",
+        "pilu",
+        "pantai",
+        "laut"
+      ],
+      "added_synonyms": {
+        "cinta": [
+          "asmara",
+          "kasih",
+          "sayang"
+        ],
+        "sedih": [
+          "duka",
+          "lara",
+          "pilu"
+        ],
+        "pantai": [
+          "laut"
+        ]
+      },
+      "total_hits_before": 453,
+      "total_hits_after": 598,
+      "top5_before": [
+        {
+          "doc_id": "CERPEN-0650",
+          "title": "Darah di Pantai Omaha",
+          "score": 7.2162
+        },
+        {
+          "doc_id": "CERPEN-0397",
+          "title": "Jejak-Jejak Kaki di Atas Pasir Pantai",
+          "score": 6.5492
+        },
+        {
+          "doc_id": "CERPEN-0439",
+          "title": "7042 Hari Kesedihan",
+          "score": 6.2866
+        },
+        {
+          "doc_id": "CERPEN-0623",
+          "title": "Mengapa Hubungan Percintaan Harus Berjalan Selamanya?",
+          "score": 5.9568
+        },
+        {
+          "doc_id": "CERPEN-0575",
+          "title": "Kami Menemukan Sumber Kesedihan",
+          "score": 5.5868
+        }
+      ],
+      "top5_after": [
+        {
+          "doc_id": "CERPEN-0650",
+          "title": "Darah di Pantai Omaha",
+          "score": 7.747
+        },
+        {
+          "doc_id": "CERPEN-0397",
+          "title": "Jejak-Jejak Kaki di Atas Pasir Pantai",
+          "score": 7.4536
+        },
+        {
+          "doc_id": "CERPEN-0623",
+          "title": "Mengapa Hubungan Percintaan Harus Berjalan Selamanya?",
+          "score": 7.3949
+        },
+        {
+          "doc_id": "CERPEN-0439",
+          "title": "7042 Hari Kesedihan",
+          "score": 6.5507
+        },
+        {
+          "doc_id": "CERPEN-0575",
+          "title": "Kami Menemukan Sumber Kesedihan",
+          "score": 6.0699
+        }
+      ]
+    },
+    {
+      "raw_query": "kubur ayah yang pergi",
+      "tokens_before": [
+        "kubur",
+        "ayah",
+        "pergi"
+      ],
+      "tokens_after": [
+        "kubur",
+        "makam",
+        "nisan",
+        "pusara",
+        "ayah",
+        "abah",
+        "papa",
+        "pergi",
+        "berangkat",
+        "pulang",
+        "rantau"
+      ],
+      "added_synonyms": {
+        "kubur": [
+          "makam",
+          "nisan",
+          "pusara"
+        ],
+        "ayah": [
+          "abah",
+          "papa"
+        ],
+        "pergi": [
+          "berangkat",
+          "pulang",
+          "rantau"
+        ]
+      },
+      "total_hits_before": 590,
+      "total_hits_after": 656,
+      "top5_before": [
+        {
+          "doc_id": "CERPEN-0608",
+          "title": "Ayah yang Buta",
+          "score": 7.1649
+        },
+        {
+          "doc_id": "CERPEN-0034",
+          "title": "MENJADI AYAH YANG BAIK",
+          "score": 6.9301
+        },
+        {
+          "doc_id": "CERPEN-0071",
+          "title": "Ayahku Tumbuh di Halaman Belakang",
+          "score": 6.0818
+        },
+        {
+          "doc_id": "CERPEN-0574",
+          "title": "Kekasihku Pergi ke Bulan",
+          "score": 5.908
+        },
+        {
+          "doc_id": "CERPEN-0055",
+          "title": "Urat Tangan Ayah",
+          "score": 5.3379
+        }
+      ],
+      "top5_after": [
+        {
+          "doc_id": "CERPEN-0034",
+          "title": "MENJADI AYAH YANG BAIK",
+          "score": 7.9688
+        },
+        {
+          "doc_id": "CERPEN-0608",
+          "title": "Ayah yang Buta",
+          "score": 7.8961
+        },
+        {
+          "doc_id": "CERPEN-0071",
+          "title": "Ayahku Tumbuh di Halaman Belakang",
+          "score": 7.3522
+        },
+        {
+          "doc_id": "CERPEN-0624",
+          "title": "Arjuna Mencari Nisan",
+          "score": 7.3224
+        },
+        {
+          "doc_id": "CERPEN-0546",
+          "title": "Di Pekuburan Tempat Al Jolson Dimakamkan – Cerpen Amy Hempel",
+          "score": 6.8722
+        }
+      ]
+    },
+    {
+      "raw_query": "mimpi di warung kopi",
+      "tokens_before": [
+        "mimpi",
+        "warung",
+        "kopi"
+      ],
+      "tokens_after": [
+        "mimpi",
+        "angan",
+        "ilusi",
+        "khayal",
+        "warung",
+        "kopi",
+        "cangkir",
+        "kedai"
+      ],
+      "added_synonyms": {
+        "mimpi": [
+          "angan",
+          "ilusi",
+          "khayal"
+        ],
+        "kopi": [
+          "cangkir",
+          "kedai"
+        ]
+      },
+      "total_hits_before": 331,
+      "total_hits_after": 378,
+      "top5_before": [
+        {
+          "doc_id": "CERPEN-0421",
+          "title": "Warung Gerimis",
+          "score": 8.2608
+        },
+        {
+          "doc_id": "CERPEN-0441",
+          "title": "Racik Kopi",
+          "score": 7.8919
+        },
+        {
+          "doc_id": "CERPEN-0654",
+          "title": "Mimpi Ular",
+          "score": 6.8166
+        },
+        {
+          "doc_id": "CERPEN-0662",
+          "title": "Mengejar Mimpi ke Jakarta",
+          "score": 6.5183
+        },
+        {
+          "doc_id": "CERPEN-0663",
+          "title": "Mimpi-Mimpi Seorang Buruh",
+          "score": 6.3055
+        }
+      ],
+      "top5_after": [
+        {
+          "doc_id": "CERPEN-0441",
+          "title": "Racik Kopi",
+          "score": 9.5766
+        },
+        {
+          "doc_id": "CERPEN-0053",
+          "title": "Nona dan Secangkir Kopi Rempah",
+          "score": 9.2492
+        },
+        {
+          "doc_id": "CERPEN-0421",
+          "title": "Warung Gerimis",
+          "score": 8.2608
+        },
+        {
+          "doc_id": "CERPEN-0354",
+          "title": "Pelacur dan Tumpahan Kopi dan Microsoft Word dan Kepergianmu",
+          "score": 7.0585
+        },
+        {
+          "doc_id": "CERPEN-0654",
+          "title": "Mimpi Ular",
+          "score": 6.8166
+        }
+      ]
+    },
+    {
+      "raw_query": "kereta senja pulang desa",
+      "tokens_before": [
+        "kereta",
+        "senja",
+        "pulang",
+        "desa"
+      ],
+      "tokens_after": [
+        "kereta",
+        "gerbong",
+        "peron",
+        "stasiun",
+        "senja",
+        "magrib",
+        "petang",
+        "sore",
+        "pulang",
+        "pergi",
+        "desa",
+        "kampung"
+      ],
+      "added_synonyms": {
+        "kereta": [
+          "gerbong",
+          "peron",
+          "stasiun"
+        ],
+        "senja": [
+          "magrib",
+          "petang",
+          "sore"
+        ],
+        "pulang": [
+          "pergi"
+        ],
+        "desa": [
+          "kampung"
+        ]
+      },
+      "total_hits_before": 542,
+      "total_hits_after": 660,
+      "top5_before": [
+        {
+          "doc_id": "CERPEN-0450",
+          "title": "Seorang Gadis di Dalam Senja",
+          "score": 10.2797
+        },
+        {
+          "doc_id": "CERPEN-0577",
+          "title": "Dari Balik Jendela Kereta",
+          "score": 9.6765
+        },
+        {
+          "doc_id": "CERPEN-0477",
+          "title": "Senja yang Mendadak Bisu",
+          "score": 7.797
+        },
+        {
+          "doc_id": "CERPEN-0409",
+          "title": "Jalan Pulang",
+          "score": 6.989
+        },
+        {
+          "doc_id": "CERPEN-0607",
+          "title": "Pulangnya Matahari yang Hilang",
+          "score": 5.2859
+        }
+      ],
+      "top5_after": [
+        {
+          "doc_id": "CERPEN-0577",
+          "title": "Dari Balik Jendela Kereta",
+          "score": 12.8588
+        },
+        {
+          "doc_id": "CERPEN-0450",
+          "title": "Seorang Gadis di Dalam Senja",
+          "score": 12.3938
+        },
+        {
+          "doc_id": "CERPEN-0477",
+          "title": "Senja yang Mendadak Bisu",
+          "score": 8.8494
+        },
+        {
+          "doc_id": "CERPEN-0409",
+          "title": "Jalan Pulang",
+          "score": 8.1622
+        },
+        {
+          "doc_id": "CERPEN-0209",
+          "title": "Pulang ke Kampung Asing",
+          "score": 7.9122
+        }
+      ]
+    }
+  ]
+}

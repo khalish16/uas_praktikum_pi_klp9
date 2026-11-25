@@ -1,0 +1,188 @@
+query_id,doc_id,relevant,rationale
+Q01,CERPEN-0321,1,Berlatar kota hujan dengan hujan deras dan suasana kesepian malam hari
+Q01,CERPEN-0578,0,Berlatar malam pengantin tanpa tema hujan deras
+Q01,CERPEN-0297,1,Menggambarkan malam hujan yang melankolis pada hari pernikahan
+Q01,CERPEN-0248,1,Hujan turun deras disertai angin kencang yang membangun suasana tegang
+Q01,CERPEN-0585,1,Hujan deras menyertai suasana kelam kematian di rumah tokoh
+Q01,CERPEN-0552,0,Kata hujan hanya muncul di tautan Baca juga dan deras merujuk darah
+Q01,CERPEN-0240,0,Kata deras merujuk tangis di malam Lebaran bukan hujan deras
+Q01,CERPEN-0125,0,Menyebut kemarau tiga bulan dan aliran sungai tidak deras di malam hari
+Q01,CERPEN-0427,0,Kisah penyergapan di malam hari tanpa latar hujan deras
+Q01,CERPEN-0172,0,Kata deras merujuk air mata menjelang malam pengantin
+Q01,CERPEN-0173,1,Cerita berpusat pada pawang hujan hujan deras guntur dan angin hingga tengah malam
+Q01,CERPEN-0035,1,Cerita berlatar hujan deras berkepanjangan dan doa teru-teru bozu
+Q01,CERPEN-0079,1,Berlatar malam hujan deras dengan gadis menari di bawah hujan
+Q01,CERPEN-0486,1,Latar malam gelap dingin dengan kabar hujan dan kilat di hutan
+Q02,CERPEN-0172,0,Bercerita tentang adat malam pengantin di desa bukan kerinduan pada ibu
+Q02,CERPEN-0655,0,Konflik menantu dengan ibu mertua bukan kerinduan perantau pada ibu
+Q02,CERPEN-0389,0,Fokus pada kisah pernikahan tetangga dan kerinduan pada kekasih
+Q02,CERPEN-0357,0,Refleksi kerinduan akan kenikmatan hidup bukan tentang ibu atau kampung
+Q02,CERPEN-0554,1,Cerpen berpusat pada sosok ibu dan kenangan anak-anak terhadap dunia ibunya
+Q02,CERPEN-0116,1,Kisah tokoh merindukan kasih sayang sosok ibu hingga mencari ibu di toko
+Q02,CERPEN-0470,1,Perantau di kota pelajar yang berat meninggalkan ibu sendirian di kampung halaman
+Q02,CERPEN-0278,0,Cerita komedi pencurian mangga di Kampung Staman bukan kerinduan anak pada ibu
+Q02,CERPEN-0525,0,Cerita legenda harimau di kampung tanpa tema kerinduan pada ibu
+Q02,CERPEN-0286,0,Kisah surat prajurit di medan perang merindukan kekasihnya Camelia
+Q02,CERPEN-0066,1,Cerpen hangat tentang ibu dapur kenangan dan masakan ibu di kampung
+Q02,CERPEN-0458,1,Pemuda merantau yang gagal di kota dan rindu pulang ke kampung halaman
+Q02,CERPEN-0584,1,Mengingat ajaran ibu dan kerinduan mendalam pada kampung halaman
+Q02,CERPEN-0269,0,Kisah alegoris religius tentang kerinduan makhluk kepada Nabi
+Q02,CERPEN-0209,1,Pulang ke kampung halaman setelah lama merantau penuh nostalgia masa kecil
+Q02,CERPEN-0196,1,Pulang kampung setelah dua puluh tahun merantau dan mengenang masa lalu
+Q02,CERPEN-0186,0,Cerita percakapan dengan mama soal pekerjaan kantor dan mantan kekasih
+Q02,CERPEN-0057,0,Mengisahkan kisah agama dan duka Saridan pasca kematian ayahnya
+Q02,CERPEN-0031,1,Anak di perantauan menerima telepon rutin dari ibunya di kampung halaman
+Q02,CERPEN-0040,0,Satire sosial tentang kemiskinan dan pemulung di kampung
+Q03,CERPEN-0441,1,Cerpen bertema kopi panen kopi bersama ibu dan meracik kopi
+Q03,CERPEN-0409,0,Cerita tentang jalan pulang dan kenangan rumah di Jakarta tanpa warung kopi
+Q03,CERPEN-0384,0,Kata pahit merujuk semak pahitan di hutan tandus bukan kopi
+Q03,CERPEN-0623,0,Refleksi tentang hubungan percintaan tanpa latar warung kopi
+Q03,CERPEN-0423,0,Kisah surealis perempuan melayang di jalan pinggiran kota
+Q03,CERPEN-0620,0,Kisah filosofis tentang orang berjalan maju bukan warung kopi
+Q03,CERPEN-0038,0,Cerita pekerja binatu dan perjalanan benda-benda
+Q03,CERPEN-0354,1,Adegan duduk minum kopi di meja warung pagi hari sambil berdialog
+Q03,CERPEN-0421,1,Cerpen berlatar utama sebuah warung misterius saat gerimis di pinggir jalan
+Q03,CERPEN-0053,1,Berlatar kedai kopi dan kisah pemilik kedai kopi rempah
+Q03,CERPEN-0632,0,Kisah kerajaan kuno Raja Ur-Nammu tentang jalan bercabang
+Q03,CERPEN-0076,0,Kata kopi hanya muncul sebagai tukang fotokopi kampus bukan warung kopi
+Q03,CERPEN-0066,1,Bercerita tentang membuka warung makan kecil dan rasa masakan pahit
+Q03,CERPEN-0200,0,Berlatar stasiun kereta dan gerbong bukan warung kopi
+Q03,CERPEN-0318,1,Berlatar warung makan pinggir jalan raya sambil menikmati teh pahit
+Q04,CERPEN-0203,1,Lelaki tua membeli kain kafan di pasar desa dan menghirup aroma kematian
+Q04,CERPEN-0556,1,Mengisahkan kabar kematian tokoh gali legendaris di daerahnya
+Q04,CERPEN-0143,1,Mengisahkan arwah Tegar setelah kematiannya akibat kecelakaan
+Q04,CERPEN-0335,0,Kisah alegoris pembunuhan dan teologi tanpa fokus pemakaman desa
+Q04,CERPEN-0256,1,Kisah perjalanan arwah mengungkap kematiannya sendiri sebagai mayat
+Q04,CERPEN-0192,1,Cerpen tentang ziarah ke makam di halaman dan nisan yang hilang
+Q04,CERPEN-0174,0,Cerita fantasi perang dan balas dendam meski banyak menyebut kematian
+Q04,CERPEN-0603,0,Kisah pendakian Gunung Rinjani dan rumor bunuh diri di gunung
+Q04,CERPEN-0124,1,Kisah pencarian makam dan kompleks pemakaman bersejarah
+Q04,CERPEN-0292,1,Dibuka dengan kepulangan tokoh dari pemakaman Pak Muji di desa
+Q04,CERPEN-0016,1,Percakapan tentang duka menerima kematian anggota keluarga
+Q04,CERPEN-0017,0,Dialog filosofis tentang Tuhan di siang hari bukan prosesi pemakaman
+Q04,CERPEN-0433,1,Kabar duka kematian Mbah Darto di desa tetangga dan pelayatan
+Q04,CERPEN-0606,0,Cerita berburu babi hutan yang merusak sawah desa meski judulnya Kematian Pemburu
+Q04,CERPEN-0546,1,Berlatar pekuburan dan refleksi kematian di tempat pemakaman
+Q04,CERPEN-0264,1,Kisah magis tokoh yang bangkit dari kematian dan kembali ke kampungnya
+Q04,CERPEN-0220,0,Cerita pergulatan batin erotis dan malaikat bukan pemakaman desa
+Q04,CERPEN-0644,1,Mengisahkan ketakutan tokoh tentang kematian dan siapa yang menguburkannya di desa
+Q04,CERPEN-0048,1,Kisah menghadiri upacara kematian membawa bunga
+Q04,CERPEN-0282,0,Komedi situasi rumah tangga bukan tentang prosesi kematian di desa
+Q04,CERPEN-0074,1,Refleksi tentang kematian dan perjumpaan dengan kematian di jalan
+Q04,CERPEN-0550,1,Kisah Salim selepas kematian bapaknya dan bangunan tua di desanya
+Q05,CERPEN-0295,1,Tokoh melakukan perjalanan menuju stasiun kereta pada malam hari
+Q05,CERPEN-0245,0,Cerita ranjang dan perempuan di malam hari tanpa kereta atau stasiun
+Q05,CERPEN-0442,1,Berlatar utama Stasiun Sidareja dan kisah para penggemar kereta api
+Q05,CERPEN-0125,0,Malaikat mendatangi rumah Mali malam hari hanya menyebut stasiun sepintas
+Q05,CERPEN-0070,0,Catatan redaksi penarikan cerpen bukan kisah kereta atau stasiun
+Q05,CERPEN-0240,0,Konflik keluarga di malam Lebaran tanpa kereta atau stasiun
+Q05,CERPEN-0328,0,Cerita tentang mimpi buruk bukan perpisahan di stasiun
+Q05,CERPEN-0198,1,Kisah Nenek bersiap berangkat naik kereta menuju Bukit Surga
+Q05,CERPEN-0189,1,Berlatar sekitar stasiun kereta BTS Saphan Takshin dan percakapan malam
+Q05,CERPEN-0578,0,Hanya menyebut perjalanan kereta api sepintas fokusnya malam pengantin
+Q05,CERPEN-0552,0,Kisah ibu menyanyikan Ave Maria di malam hari tanpa kereta
+Q05,CERPEN-0155,0,Kisah perpisahan sahabat merantau ke ibu kota tanpa latar stasiun kereta
+Q05,CERPEN-0200,1,Berlatar langsung di stasiun kereta saat malam hujan dengan suasana gelisah
+Q05,CERPEN-0577,1,Berlatar penuh di dalam gerbong kereta malam saat tokoh menemukan suaminya tiada
+Q05,CERPEN-0427,0,Penyerbuan malam hari menyebut kereta kuda bukan stasiun kereta api
+Q06,CERPEN-0139,1,Kisah gadis terapung di ombak Laut Aegea hingga ditolong perahu nelayan
+Q06,CERPEN-0312,1,Kehidupan kampung nelayan pesisir perahu dan berlayar mengejar ombak
+Q06,CERPEN-0588,1,Kisah nelayan tua mengayuh jukung di laut diterpa cahaya bulan dan ombak
+Q06,CERPEN-0215,1,Tokoh dibesarkan di kampung nelayan dan berdarah pelaut
+Q06,CERPEN-0587,1,Cerita pesisir dan bajak laut di Teluk Tomini dengan debur ombak karang
+Q06,CERPEN-0523,1,Kisah nelayan menangkap gurita dengan sampan dan tombak di laut pesisir
+Q06,CERPEN-0457,1,Kisah anak keluarga nelayan di pesisir Madura dan perahu memotong ombak
+Q06,CERPEN-0420,1,Berlatar rumah menghadap laut dengan cahaya perahu nelayan dan suara ombak
+Q06,CERPEN-0461,1,Aroma laut sayup ombak dan pencarian perahu nelayan di pesisir
+Q06,CERPEN-0520,0,Kisah Qabil dan gagak yang menyebut laut dan ombak hanya sebagai alegori bencana
+Q06,CERPEN-0246,1,Kehidupan nelayan Ama Kletus di kampung pesisir menghadapi ombak laut
+Q07,CERPEN-0366,0,Kisah badut dan jurang takdir bukan tentang surat cinta
+Q07,CERPEN-0182,1,Kisah lelaki paruh baya dan refleksi menyatakan cinta di hari kasih sayang
+Q07,CERPEN-0301,0,Dialog teologis tentang nabi dan Tuhan bukan surat cinta
+Q07,CERPEN-0296,0,Cerita aneh perempuan mencintai tikus bukan kisah surat cinta
+Q07,CERPEN-0120,1,Kisah cinta bertepuk sebelah tangan terhadap Saiba dan Kurt
+Q07,CERPEN-0336,0,Kisah penyidik dan obsesi absurd terhadap babi bukan surat cinta
+Q07,CERPEN-0122,0,Alegori burung di surga tentang kasih Tuhan bukan surat cinta
+Q07,CERPEN-0288,0,Cerita fantasi tentang buah terlarang bukan surat cinta
+Q07,CERPEN-0262,0,Hanya menyebut surat pindah sekolah dalam kisah mimpi buruk
+Q07,CERPEN-0378,0,Satire politik tentang koruptor yang pernah dicintai rakyatnya
+Q07,CERPEN-0151,1,Cerpen berbentuk surat yang ditulis seorang tawanan untuk orang tercinta
+Q07,CERPEN-0118,0,Kisah tragedi keluarga dan doa anak bukan surat cinta
+Q07,CERPEN-0620,0,Cerita tentang anak berwujud bekicot dan ibunya bukan surat cinta
+Q07,CERPEN-0391,1,Cerpen romantis tentang perasaan cinta yang dipendam dan diperbincangkan
+Q07,CERPEN-0478,1,Kisah persahabatan dan cinta yang tersesat di balik cangkir kopi
+Q08,CERPEN-0014,0,Satire absurd tentang wajah yang bekerja sebagai komoditas iklan
+Q08,CERPEN-0212,1,Cerita tentang hubungan anak dengan reputasi dan jejak ayahnya
+Q08,CERPEN-0062,0,Konflik pasangan suami istri di bar yang belum siap memiliki anak
+Q08,CERPEN-0345,0,Kisah hantu wanita dan lelaki tua keras kepala tanpa tema ayah-anak
+Q08,CERPEN-0494,1,Kisah pilu ayah yang kehilangan anak dan penyesalannya
+Q08,CERPEN-0608,1,Hubungan ayah yang mulai buta dengan anak perempuannya yang keras kepala
+Q08,CERPEN-0034,1,Upaya Hasim menjadi ayah yang baik bagi anaknya
+Q08,CERPEN-0071,1,Kisah simbolik tentang sosok ayah di halaman belakang dan kerja keras ibu bagi anak
+Q08,CERPEN-0055,1,Dialog hangat anak dan ayah pekerja keras dengan tangan berurat demi keluarga
+Q08,CERPEN-0339,0,Kisah penyanyi panggung Ocha dan manajernya bukan ayah bekerja demi anak
+Q08,CERPEN-0518,1,Pengakuan ayah kepada anak-anaknya setelah kepergiannya
+Q08,CERPEN-0314,0,Cerita percintaan remaja bukan pengorbanan ayah demi anak
+Q09,CERPEN-0446,1,Tokoh Odera dilanda kesepian tak tertahankan di kota dan bandara
+Q09,CERPEN-0268,1,Masa tua seorang jenderal dalam kesepian jauh dari anak-anak di luar kota
+Q09,CERPEN-0642,0,Cerita tentang pria bertato mawar bukan kesepian di kota besar
+Q09,CERPEN-0137,1,Cerpen tentang pengarang yang hidup dalam kesepian dan terasing
+Q09,CERPEN-0515,0,Kisah klasik Cincinnatus di Kota Roma kuno bukan kesepian urban modern
+Q09,CERPEN-0579,0,Dongeng klasik musisi hewan menuju Kota Bremen bukan kesepian perantau
+Q09,CERPEN-0012,1,Potret getir rakyat kecil dan nasib buruk perantau di ibu kota
+Q09,CERPEN-0393,1,Lelaki muda pencari kerja yang kelelahan dan terasing di taman kota
+Q09,CERPEN-0423,0,Kisah surealis di jalan pinggiran kota bukan kesepian perantau
+Q09,CERPEN-0197,1,Kisah teman kaya yang justru hidup dalam kesepian di ibu kota
+Q09,CERPEN-0214,1,Pengarang terbuang dan terasing di kota asing (Kota Z)
+Q09,CERPEN-0271,1,Kejenuhan dan kesepian tokoh menyusuri jalanan kota besar sendirian
+Q09,CERPEN-0321,1,Tokoh merasakan kesepian dan kedinginan di balkon apartemen kota besar
+Q09,CERPEN-0437,1,Pergulatan batin tokoh yang hidup dalam kesepian sejak kecil
+Q09,CERPEN-0668,0,Cerita misteri lubang di hutan tebu bukan kesepian kota besar
+Q10,CERPEN-0666,1,Kisah keluarga penuh kenangan masa kecil di pohon dan rumah keluarga
+Q10,CERPEN-0032,1,Mengingat kenangan keluarga melalui tiap benda di dalam rumah lama
+Q10,CERPEN-0268,1,Tokoh tua mengenang masa lalu kenangan keluarga dan rumah
+Q10,CERPEN-0052,1,Ayah hendak menjual rumah yang penuh kenangan masa kecil dan keluarga
+Q10,CERPEN-0406,0,Kisah pelabuhan dan rumah tutup bordil bukan nostalgia masa kecil
+Q10,CERPEN-0119,1,Kisah kehidupan rumah tangga ayah ibu dan anak di rumah keluarga
+Q10,CERPEN-0234,1,Mengunjungi ibu tua di rumah panggung tua penuh cerita lama
+Q10,CERPEN-0444,1,Tokoh tua Darman merenungi hari tua rumah dan masa lalunya
+Q10,CERPEN-0566,1,Keluarga tinggal di rumah kecil sembari menanti ayah dan tradisi rumah keluarga
+Q10,CERPEN-0045,0,Cerita tegang perampokan/penyusup di rumah bukan nostalgia masa kecil
+Q10,CERPEN-0461,0,Pencarian jati diri di laut lebih dominan daripada kenangan rumah tua
+Q10,CERPEN-0392,1,Refleksi tentang berharganya kenangan dan rumah-rumah tua bersejarah
+Q10,CERPEN-0505,1,Mengunjungi rumah orang tua dan membuka kembali kawan masa lalu
+Q10,CERPEN-0645,0,Fabel tentang penyu tua dan si bocah bukan rumah tua kenangan keluarga
+Q11,CERPEN-0602,1,Berlatar masjid suara azan Jumat dan jamaah salat berjamaah
+Q11,CERPEN-0225,1,Cerita warga menunggu suara azan untuk menenangkan angin di sekitar masjid
+Q11,CERPEN-0390,1,Kisah pesantren tajug azan dan doa-doa khusyuk santri
+Q11,CERPEN-0295,1,Cerita jemaah mushala imam salat dan bangun saat azan subuh berkumandang
+Q11,CERPEN-0395,1,Pulang mengaji mendengar suara ngaji dan azan senja di desa
+Q11,CERPEN-0393,0,Kata doa hanya dari nama pengamen/judul lagu bukan nuansa religius masjid
+Q11,CERPEN-0010,1,Latar kampung nelayan sebelum azan subuh berkumandang
+Q11,CERPEN-0196,0,Hanya menyebut terbangun saat azan subuh fokus cerita adalah reuni kampung
+Q11,CERPEN-0105,0,Cerita eksekusi militer yang menyebut waktu azan Zuhur sebagai penanda jam
+Q11,CERPEN-0180,1,Cerpen religius tentang Markum yang mendengar doa-doa di mushola dan masjid
+Q11,CERPEN-0126,1,Kisah pertobatan Paman Idam tersentuh suara azan di masjid kakeknya
+Q11,CERPEN-0101,1,Cerita marbot masjid suara azan dan tuduhan pencurian pengeras suara masjid
+Q11,CERPEN-0164,0,Konflik sosial dusun transmigrasi yang hanya menyebut azan Zuhur sepintas
+Q11,CERPEN-0293,0,Satire penjudi yang berdoa agar nomor togel keluar hingga azan subuh
+Q11,CERPEN-0327,1,Refleksi batin khusyuk salat Magrib dan doa di masjid
+Q11,CERPEN-0201,0,Kisah mitologis kelahiran dan pengorbanan di mazbah bukan doa di masjid
+Q11,CERPEN-0118,1,Mengangkat pergulatan batin doa dan iman dalam keluarga
+Q12,CERPEN-0666,0,Bercerita tentang pohon kenangan keluarga bukan cerita mistis hutan
+Q12,CERPEN-0211,1,Kisah mistis penunggu hutan Gunung Datar yang tak berani dimasuki warga
+Q12,CERPEN-0132,0,Pohon tumbang di alun-alun kota sebagai metafora perceraian bukan mistis hutan
+Q12,CERPEN-0506,1,Cerita horor-surealis tentang pohon kepala yang mengerikan
+Q12,CERPEN-0281,0,Percakapan di kafe tentang hasil laboratorium bukan mistis pohon atau hutan
+Q12,CERPEN-0668,1,Cerita kelam berlatar lubang berbau darah di hutan tebu
+Q12,CERPEN-0208,1,Kisah pohon mirip beringin yang dianggap keramat dan hidup di halaman
+Q12,CERPEN-0612,1,Legenda Suku Bunian mistis hutan Gunung Kerinci dan larangan mengencingi beringin
+Q12,CERPEN-0107,1,Cerita hantu dan makhluk penunggu di hutan
+Q12,CERPEN-0432,0,Prosa liris tentang kerinduan bukan cerita mistis hutan atau beringin
+Q12,CERPEN-0292,1,Menemukan pohon beringin tua besar di desa dengan kisah reinkarnasi
+Q12,CERPEN-0627,0,Kisah pohon beringin kerdil dalam pot dan kenangan di pesisir
+Q12,CERPEN-0524,1,Kisah mistis penebangan pohon durian tua dan kemunculan manusia kerdil
+Q12,CERPEN-0225,1,Berpusat pada mitos dan nuansa mistis pohon beringin tua ratusan tahun
+Q12,CERPEN-0190,1,Kisah Tuan Budiman tersesat di dalam hutan hujan lebat
+Q12,CERPEN-0250,0,Kisah relasi ibu dan anak lewat pohon mangga di halaman rumah
+Q12,CERPEN-0324,1,Perjalanan ke padepokan lereng Gunung Lawu dan nuansa mistis pohon rezeki

@@ -1,0 +1,5 @@
+﻿config,label,num_queries,precision_at_10,recall,f1,map
+bm25_custom,BM25 + Custom Analyzer,12,0.675,0.7772,0.7077,0.6675
+tfidf_custom,TF-IDF Klasik + Custom Analyzer,12,0.6,0.6631,0.6181,0.5628
+bm25_baseline,BM25 + StandardAnalyzer (Baseline),12,0.6417,0.7494,0.6773,0.6124
+bm25_custom_qe,BM25 + Custom + Query Expansion,12,0.6417,0.7404,0.6732,0.6653

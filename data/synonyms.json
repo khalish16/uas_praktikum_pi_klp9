@@ -1,0 +1,33 @@
+{
+  "description": "Kamus Sinonim Mandiri Domain Cerpen & Cerita Fiksi Indonesia (28 pasangan)",
+  "pairs": [
+    {"term": "hujan", "synonyms": ["gerimis", "deras", "rintik", "mendung"]},
+    {"term": "rindu", "synonyms": ["kangen", "kenangan", "damba"]},
+    {"term": "cinta", "synonyms": ["kasih", "sayang", "asmara"]},
+    {"term": "sedih", "synonyms": ["duka", "pilu", "lara", "tangis"]},
+    {"term": "bahagia", "synonyms": ["gembira", "senang", "riang", "sukacita"]},
+    {"term": "marah", "synonyms": ["murka", "geram", "kesal", "benci"]},
+    {"term": "takut", "synonyms": ["cemas", "gelisah", "ngeri", "gentar"]},
+    {"term": "mati", "synonyms": ["wafat", "meninggal", "ajal", "maut"]},
+    {"term": "kubur", "synonyms": ["makam", "nisan", "pusara"]},
+    {"term": "ibu", "synonyms": ["emak", "bunda", "mama"]},
+    {"term": "ayah", "synonyms": ["bapak", "papa", "abah"]},
+    {"term": "anak", "synonyms": ["bocah", "putra", "putri"]},
+    {"term": "rumah", "synonyms": ["gubuk", "hunian", "pondok", "beranda"]},
+    {"term": "kampung", "synonyms": ["desa", "dusun", "halaman"]},
+    {"term": "kota", "synonyms": ["metropolitan", "urban", "jalanan"]},
+    {"term": "malam", "synonyms": ["gelap", "gulita", "kelam", "petang"]},
+    {"term": "senja", "synonyms": ["petang", "sore", "magrib"]},
+    {"term": "pagi", "synonyms": ["fajar", "subuh", "dinihari"]},
+    {"term": "laut", "synonyms": ["samudra", "pantai", "ombak", "pesisir"]},
+    {"term": "hutan", "synonyms": ["rimba", "belantara", "semak"]},
+    {"term": "kopi", "synonyms": ["warung", "kedai", "cangkir"]},
+    {"term": "kereta", "synonyms": ["stasiun", "peron", "gerbong"]},
+    {"term": "surat", "synonyms": ["pesan", "kabar", "warkat"]},
+    {"term": "mimpi", "synonyms": ["angan", "khayal", "ilusi"]},
+    {"term": "pergi", "synonyms": ["pulang", "berangkat", "merantau"]},
+    {"term": "sunyi", "synonyms": ["sepi", "hening", "senyap"]},
+    {"term": "tua", "synonyms": ["renta", "uzur", "senja"]},
+    {"term": "doa", "synonyms": ["sujud", "sembahyang", "munajat"]}
+  ]
+}

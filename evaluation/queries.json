@@ -1,0 +1,62 @@
+[
+  {
+    "query_id": "Q01",
+    "query": "hujan deras di malam hari",
+    "description": "Cerita berlatar hujan deras di malam hari yang membangun suasana muram atau melankolis"
+  },
+  {
+    "query_id": "Q02",
+    "query": "kerinduan pada ibu di kampung",
+    "description": "Cerpen tentang kerinduan seorang anak kepada ibunya atau kampung halaman"
+  },
+  {
+    "query_id": "Q03",
+    "query": "kopi pahit di warung pinggir jalan",
+    "description": "Cerita yang berlatar warung kopi, kedai kopi, atau percakapan ditemani segelas kopi"
+  },
+  {
+    "query_id": "Q04",
+    "query": "kematian dan pemakaman di desa",
+    "description": "Cerpen bertema duka, kematian, kuburan, atau prosesi pemakaman di pedesaan"
+  },
+  {
+    "query_id": "Q05",
+    "query": "kereta malam dan perpisahan di stasiun",
+    "description": "Kisah pertemuan atau perpisahan tokoh di stasiun kereta api maupun di dalam gerbong kereta"
+  },
+  {
+    "query_id": "Q06",
+    "query": "nelayan dan ombak laut pesisir",
+    "description": "Cerita kehidupan masyarakat pesisir, nelayan, perahu, dan lautan"
+  },
+  {
+    "query_id": "Q07",
+    "query": "surat cinta yang tak pernah terkirim",
+    "description": "Cerpen bertema surat, pesan tertulis, atau kisah cinta terpendam"
+  },
+  {
+    "query_id": "Q08",
+    "query": "ayah bekerja keras demi anak",
+    "description": "Kisah pengorbanan, perjuangan, atau hubungan emosional antara ayah dan anaknya"
+  },
+  {
+    "query_id": "Q09",
+    "query": "kesepian di kota besar",
+    "description": "Cerpen tentang keterasingan, kesunyian, atau kerasnya hidup perantau di kota metropolitan"
+  },
+  {
+    "query_id": "Q10",
+    "query": "rumah tua penuh kenangan masa kecil",
+    "description": "Cerita nostalgia tentang rumah lama, keluarga, dan kenangan masa kanak-kanak"
+  },
+  {
+    "query_id": "Q11",
+    "query": "suara azan subuh dan doa di masjid",
+    "description": "Cerpen bernuansa religius, refleksi batin, subuh, doa, atau masjid"
+  },
+  {
+    "query_id": "Q12",
+    "query": "pohon beringin dan cerita mistis hutan",
+    "description": "Cerita rakyat, horor, atau nuansa mistis di sekitar hutan, pohon tua, dan makam"
+  }
+]

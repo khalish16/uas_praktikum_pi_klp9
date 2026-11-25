@@ -1,0 +1,16 @@
+services:
+  search-engine:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: lokacerita-pylucene
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./data:/app/data
+      - ./indexes:/app/indexes
+      - ./evaluation:/app/evaluation
+      - ./reports:/app/reports
+      - ./src:/app/src
+      - ./app:/app/app
+    restart: unless-stopped

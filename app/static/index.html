@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LokaCerita — Mesin Pencari Cerpen &amp; Cerita Fiksi Indonesia</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Newsreader:ital,opsz,wght@0,6..72,500;0,6..72,600;1,6..72,400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/static/styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="container topbar-inner">
+      <div class="brand" id="brand-home" role="button" tabindex="0">
+        <span class="brand-mark">LC</span>
+        <div>
+          <div class="brand-title">LokaCerita</div>
+          <div class="brand-sub">Arsip Cerpen Indonesia &middot; PyLucene IR</div>
+        </div>
+      </div>
+
+      <nav class="nav-tabs" aria-label="Navigasi utama">
+        <button class="nav-tab active" data-tab="search">Pencarian</button>
+        <button class="nav-tab" data-tab="preprocess">Preprocessing &amp; Sinonim</button>
+        <button class="nav-tab" data-tab="postings">Posting List</button>
+        <button class="nav-tab" data-tab="evaluation">Evaluasi</button>
+        <button class="nav-tab" data-tab="team">Arsitektur &amp; Tim</button>
+      </nav>
+
+      <div class="status-pill" id="corpus-badge">Memuat indeks...</div>
+    </div>
+  </header>
+
+  <main class="container main-wrap">
+    <!-- TAB 1: PENCARIAN -->
+    <section id="tab-search" class="tab-panel active">
+      <div class="hero" id="search-hero">
+        <p class="eyebrow">Kategori 7 &middot; Cerpen / Cerita Fiksi</p>
+        <h1 class="hero-title">Telusuri cerita fiksi &amp; sastra Indonesia.</h1>
+        <p class="hero-desc">
+          Didukung <strong>Apache Lucene (PyLucene)</strong> dengan perbandingan model
+          <strong>BM25</strong>, <strong>TF-IDF Klasik</strong>, dan <strong>StandardAnalyzer Baseline</strong>,
+          lengkap dengan <em>Query Expansion</em> &amp; <em>Rocchio Relevance Feedback</em>.
+        </p>
+
+        <form id="search-form" class="search-box">
+          <svg class="search-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <circle cx="11" cy="11" r="8"></circle>
+            <path d="m21 21-4.3-4.3"></path>
+          </svg>
+          <input
+            id="search-input"
+            type="text"
+            placeholder="Cari tema cerita, misalnya: hujan malam di stasiun, rindu ibu di kampung..."
+            autocomplete="off"
+          />
+          <button type="submit" class="btn-primary">Cari</button>
+        </form>
+
+        <div class="controls-bar">
+          <div class="segmented" role="group" aria-label="Pilih model retrieval">
+            <button type="button" class="seg-btn active" data-model="bm25_custom">BM25 + Custom</button>
+            <button type="button" class="seg-btn" data-model="tfidf_custom">TF-IDF Klasik + Custom</button>
+            <button type="button" class="seg-btn" data-model="bm25_baseline">BM25 + Baseline</button>
+          </div>
+
+          <div class="controls-right">
+            <label class="toggle-chip">
+              <input type="checkbox" id="toggle-expand" />
+              <span>Query Expansion</span>
+            </label>
+
+            <select id="source-filter" class="select-minimal" aria-label="Filter sumber">
+              <option value="all">Semua Sumber</option>
+              <option value="BasaBasi.co">BasaBasi.co</option>
+              <option value="BacaPetra.co">BacaPetra.co</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="quick-queries" id="quick-queries">
+          <span class="muted-label">Coba query:</span>
+          <button type="button" class="chip-btn" data-q="hujan deras di malam hari">hujan deras di malam hari</button>
+          <button type="button" class="chip-btn" data-q="kerinduan pada ibu di kampung">kerinduan pada ibu di kampung</button>
+          <button type="button" class="chip-btn" data-q="kopi pahit di warung">kopi pahit di warung</button>
+          <button type="button" class="chip-btn" data-q="kereta malam di stasiun">kereta malam di stasiun</button>
+          <button type="button" class="chip-btn" data-q="nelayan dan ombak laut">nelayan dan ombak laut</button>
+        </div>
+
+        <div class="history-bar hidden" id="history-bar">
+          <span class="muted-label">Riwayat:</span>
+          <div id="history-chips" class="history-chips"></div>
+        </div>
+      </div>
+
+      <!-- Panel info hasil & Query Expansion -->
+      <div id="results-meta" class="results-meta hidden"></div>
+
+      <!-- Panel Hasil Rocchio Weighted Query -->
+      <div id="rocchio-summary" class="rocchio-summary hidden"></div>
+
+      <!-- Daftar Hasil -->
+      <div id="results-list" class="results-list"></div>
+
+      <!-- Floating Bar Rocchio Relevance Feedback -->
+      <div id="rocchio-bar" class="rocchio-bar hidden">
+        <div class="rocchio-bar-info">
+          <strong>Rocchio Feedback</strong>
+          <span>
+            <span class="badge-rel" id="rel-count">0 Relevan</span>
+            <span class="badge-nonrel" id="nonrel-count">0 Tidak Relevan</span>
+          </span>
+        </div>
+        <div class="rocchio-params">
+          <label>&alpha; <input type="number" id="rocchio-alpha" value="1.0" step="0.05" min="0" max="3" /></label>
+          <label>&beta; <input type="number" id="rocchio-beta" value="0.75" step="0.05" min="0" max="3" /></label>
+          <label>&gamma; <input type="number" id="rocchio-gamma" value="0.15" step="0.05" min="0" max="3" /></label>
+        </div>
+        <div class="rocchio-actions">
+          <button type="button" id="btn-rocchio-reset" class="btn-ghost">Reset</button>
+          <button type="button" id="btn-rocchio-run" class="btn-accent">Perbaiki Query (Rocchio)</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- TAB 2: PREPROCESSING & SINONIM -->
+    <section id="tab-preprocess" class="tab-panel">
+      <div class="section-head">
+        <h2>Custom Preprocessing &amp; Kamus Sinonim</h2>
+        <p>Pipeline identik untuk indexing dan query: Pembersihan domain sastra, case folding, tokenisasi, stopword + custom domain stopwords, dan stemming Sastrawi.</p>
+      </div>
+
+      <div class="card">
+        <h3>Uji Pipeline Preprocessing Secara Langsung</h3>
+        <div class="prep-tester">
+          <textarea id="prep-input" rows="3" placeholder="Masukkan kutipan cerpen atau query dengan imbuhan, tanda dialog, maupun HTML...">“Ah, hujan deras begini membuatku merindukan masakan ibu di kampung halaman,” gumamnya sambil menyeruput kopi pahit—serupa kenangan masa lalu.</textarea>
+          <div class="prep-actions">
+            <button type="button" id="btn-run-prep" class="btn-primary">Proses Teks</button>
+          </div>
+          <div id="prep-output" class="prep-output hidden"></div>
+        </div>
+      </div>
+
+      <div class="grid-2" id="prep-stats-grid"></div>
+
+      <div class="card">
+        <h3>Contoh Before vs After pada Korpus Nyata</h3>
+        <div id="prep-examples" class="examples-stack"></div>
+      </div>
+
+      <div class="card">
+        <div class="card-head-flex">
+          <div>
+            <h3>Kamus Sinonim Mandiri (Domain Cerpen)</h3>
+            <p class="muted">Digunakan oleh modul Query Expansion sebelum pencarian ke PyLucene.</p>
+          </div>
+          <input type="text" id="synonym-filter" class="input-compact" placeholder="Filter kata kamus..." />
+        </div>
+        <div id="synonyms-grid" class="synonyms-grid"></div>
+      </div>
+
+      <div class="card">
+        <h3>Pembuktian Query Expansion (Sebelum vs Sesudah)</h3>
+        <div id="qe-proofs" class="examples-stack"></div>
+      </div>
+    </section>
+
+    <!-- TAB 3: POSTING LIST -->
+    <section id="tab-postings" class="tab-panel">
+      <div class="section-head">
+        <h2>Inspeksi Posting List Indeks Apache Lucene</h2>
+        <p>Membaca langsung struktur <code>MultiTerms</code> &amp; <code>PostingsEnum</code> dari indeks Lucene di disk (<code>doc_id</code>, <code>df</code>, <code>tf</code>, dan posisi kemunculan).</p>
+      </div>
+
+      <div class="card">
+        <form id="posting-form" class="posting-controls">
+          <input type="text" id="posting-term" value="hujan" placeholder="Masukkan term (mis. hujan, rindu, kopi, stasiun)..." />
+          <select id="posting-index-type" class="select-minimal">
+            <option value="custom">Custom Index (WhitespaceAnalyzer)</option>
+            <option value="baseline">Baseline Index (StandardAnalyzer)</option>
+          </select>
+          <button type="submit" class="btn-primary">Lihat Posting List</button>
+        </form>
+        <div class="quick-queries" style="margin-top: 12px;">
+          <span class="muted-label">Term populer:</span>
+          <button type="button" class="chip-btn posting-chip" data-term="hujan">hujan</button>
+          <button type="button" class="chip-btn posting-chip" data-term="rindu">rindu</button>
+          <button type="button" class="chip-btn posting-chip" data-term="cinta">cinta</button>
+          <button type="button" class="chip-btn posting-chip" data-term="kopi">kopi</button>
+          <button type="button" class="chip-btn posting-chip" data-term="ibu">ibu</button>
+          <button type="button" class="chip-btn posting-chip" data-term="malam">malam</button>
+          <button type="button" class="chip-btn posting-chip" data-term="desa">desa</button>
+          <button type="button" class="chip-btn posting-chip" data-term="laut">laut</button>
+        </div>
+        <div id="posting-result" class="posting-result"></div>
+      </div>
+    </section>
+
+    <!-- TAB 4: EVALUASI -->
+    <section id="tab-evaluation" class="tab-panel">
+      <div class="section-head">
+        <h2>Evaluasi Sistem, Rumus Model &amp; Audit Duplikat</h2>
+        <p>Evaluasi kuantitatif pada 12 query uji menggunakan metode TREC Pooling dan relevance judgment manual (0/1) yang identik untuk seluruh konfigurasi.</p>
+      </div>
+
+      <div id="eval-kpis" class="kpi-grid"></div>
+
+      <div class="card">
+        <h3>Tabel Perbandingan Evaluasi (P@10, Recall, F1-Score, MAP)</h3>
+        <div class="table-wrap" id="eval-table-wrap"></div>
+      </div>
+
+      <div class="grid-2">
+        <div class="card">
+          <h3>Grafik Perbandingan Metrik</h3>
+          <img src="/charts/evaluation_comparison.png" alt="Grafik Perbandingan Evaluasi" class="chart-img" />
+        </div>
+        <div class="card">
+          <h3>Average Precision per Query Uji</h3>
+          <img src="/charts/per_query_ap.png" alt="Grafik AP per Query" class="chart-img" />
+        </div>
+      </div>
+
+      <div class="grid-2">
+        <div class="card">
+          <h3>Distribusi Sumber &amp; Panjang Cerpen</h3>
+          <img src="/charts/corpus_stats.png" alt="Statistik Korpus Cerpen" class="chart-img" />
+        </div>
+        <div class="card">
+          <h3>Audit Pemeriksaan Duplikat (&gt;95%)</h3>
+          <div id="dup-audit-box"></div>
+        </div>
+      </div>
+
+      <div class="card">
+        <h3>Demonstrasi Rocchio Relevance Feedback</h3>
+        <div id="rocchio-demo-box"></div>
+      </div>
+    </section>
+
+    <!-- TAB 5: ARSITEKTUR & TIM -->
+    <section id="tab-team" class="tab-panel">
+      <div class="section-head">
+        <h2>Arsitektur Sistem &amp; Profil Kelompok 9</h2>
+        <p>UAS Praktikum Penelusuran Informasi &mdash; Kategori 7: Cerpen / Cerita Fiksi Indonesia.</p>
+      </div>
+
+      <div class="grid-4" id="team-grid">
+        <div class="card team-card">
+          <div class="team-nim">2408107010054</div>
+          <div class="team-name">Muhammad Irfan Qadafi</div>
+          <div class="team-role">Anggota Kelompok 9</div>
+        </div>
+        <div class="card team-card">
+          <div class="team-nim">2408107010056</div>
+          <div class="team-name">Yogi Wanda Putra</div>
+          <div class="team-role">Anggota Kelompok 9</div>
+        </div>
+        <div class="card team-card">
+          <div class="team-nim">2408107010068</div>
+          <div class="team-name">Khalish Aufa</div>
+          <div class="team-role">Anggota Kelompok 9</div>
+        </div>
+        <div class="card team-card">
+          <div class="team-nim">2408107010075</div>
+          <div class="team-name">Muhammad Farhan Alafif</div>
+          <div class="team-role">Anggota Kelompok 9</div>
+        </div>
+      </div>
+
+      <div class="grid-2">
+        <div class="card">
+          <h3>Alur Pipeline Information Retrieval</h3>
+          <ol class="arch-list">
+            <li><strong>Crawling Mandiri:</strong> WordPress REST API dari BasaBasi.co (483 cerpen) dan BacaPetra.co (197 cerpen) &mdash; total 680 cerpen unik.</li>
+            <li><strong>Duplicate Checking 3 Lapis:</strong> Normalisasi URL, SHA-256 Hash, dan TF-IDF Cosine Similarity (&ge; 0.95).</li>
+            <li><strong>Custom Preprocessing:</strong> Pembersihan HTML &amp; tanda baca sastra, custom stopwords domain fiksi, serta Sastrawi Stemmer.</li>
+            <li><strong>PyLucene 9.12 Indexing:</strong> <code>WhitespaceAnalyzer</code> (Custom) vs <code>StandardAnalyzer</code> (Baseline) dengan Term Vectors aktif.</li>
+            <li><strong>Retrieval &amp; Feedback:</strong> BM25 (<code>k1=1.2, b=0.75</code>), TF-IDF Klasik (<code>ClassicSimilarity</code>), Query Expansion, dan Rocchio Algorithm.</li>
+          </ol>
+        </div>
+
+        <div class="card">
+          <h3>Rumus Matematika Model &amp; Parameter</h3>
+          <div class="formula-box">
+            <div class="formula-title">1. Okapi BM25 (PyLucene <code>BM25Similarity</code>)</div>
+            <code>Score(D, Q) = &Sigma; IDF(q_i) &middot; [f(q_i, D) &middot; (k1 + 1)] / [f(q_i, D) + k1 &middot; (1 - b + b &middot; |D|/avgdl)]</code>
+            <p class="muted small">Parameter: <code>k1 = 1.2</code>, <code>b = 0.75</code>, bobot judul <code>2.0&times;</code>.</p>
+          </div>
+          <div class="formula-box">
+            <div class="formula-title">2. TF-IDF Klasik (PyLucene <code>ClassicSimilarity</code>)</div>
+            <code>Score(D, Q) = coord(Q, D) &middot; queryNorm(Q) &middot; &Sigma; [sqrt(tf) &middot; idf(t)^2 &middot; norm(t, D)]</code>
+            <p class="muted small">Model Vector Space berbasis pembobotan frekuensi term &amp; normalisasi panjang dokumen.</p>
+          </div>
+          <div class="formula-box">
+            <div class="formula-title">3. Rocchio Relevance Feedback</div>
+            <code>q_m = &alpha;&middot;q_0 + (&beta;/|D_r|)&Sigma; d_r &minus; (&gamma;/|D_nr|)&Sigma; d_nr</code>
+            <p class="muted small">Default: <code>&alpha; = 1.0</code>, <code>&beta; = 0.75</code>, <code>&gamma; = 0.15</code> di atas Term Vectors Lucene.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Modal Baca Cerpen -->
+  <div id="reader-modal" class="modal hidden" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+    <div class="modal-backdrop" id="modal-backdrop"></div>
+    <div class="modal-card">
+      <div class="modal-header">
+        <div>
+          <span class="meta-pill" id="modal-source"></span>
+          <h2 id="modal-title" class="modal-title"></h2>
+          <p id="modal-meta" class="muted small"></p>
+        </div>
+        <button type="button" id="modal-close" class="btn-ghost" aria-label="Tutup">&times;</button>
+      </div>
+      <div id="modal-body" class="modal-body"></div>
+      <div class="modal-footer">
+        <a id="modal-link" href="#" target="_blank" rel="noopener noreferrer" class="btn-primary">Buka Sumber Asli &nearr;</a>
+      </div>
+    </div>
+  </div>
+
+  <script src="/static/app.js"></script>
+</body>
+</html>

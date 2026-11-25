@@ -1,0 +1,11 @@
+﻿pair_type,doc_1_id,doc_1_title,doc_2_id,doc_2_title,cosine_similarity,status
+top_unique_audit,CERPEN-0213,Randuse dan Hal-Hal Ganjil,CERPEN-0320,Randuse Merasa Jadi Manusia Paling Hina di Muka Bumi Ini,0.716882,kept (< 95%)
+top_unique_audit,CERPEN-0082,Ayam Tetangga,CERPEN-0098,"DALAM, SAMPAI TERISAP DALAM",0.64853,kept (< 95%)
+top_unique_audit,CERPEN-0130,Sumini Ingin Mengelus Rambut Tentara Israel,CERPEN-0213,Randuse dan Hal-Hal Ganjil,0.648214,kept (< 95%)
+top_unique_audit,CERPEN-0437,Ia Tidak Boleh Beranjak Besar,CERPEN-0535,Menara Burung Hantu – Cerpen Gustave Aimard,0.642128,kept (< 95%)
+top_unique_audit,CERPEN-0072,Pengarang Itu Membunuh Tokoh Utama Kita dalam Tiga Babak,CERPEN-0437,Ia Tidak Boleh Beranjak Besar,0.62851,kept (< 95%)
+top_unique_audit,CERPEN-0098,"DALAM, SAMPAI TERISAP DALAM",CERPEN-0535,Menara Burung Hantu – Cerpen Gustave Aimard,0.620503,kept (< 95%)
+top_unique_audit,CERPEN-0072,Pengarang Itu Membunuh Tokoh Utama Kita dalam Tiga Babak,CERPEN-0535,Menara Burung Hantu – Cerpen Gustave Aimard,0.61531,kept (< 95%)
+top_unique_audit,CERPEN-0072,Pengarang Itu Membunuh Tokoh Utama Kita dalam Tiga Babak,CERPEN-0098,"DALAM, SAMPAI TERISAP DALAM",0.606824,kept (< 95%)
+top_unique_audit,CERPEN-0098,"DALAM, SAMPAI TERISAP DALAM",CERPEN-0437,Ia Tidak Boleh Beranjak Besar,0.598234,kept (< 95%)
+top_unique_audit,CERPEN-0064,Nadira Bicara Sendiri,CERPEN-0535,Menara Burung Hantu – Cerpen Gustave Aimard,0.597832,kept (< 95%)

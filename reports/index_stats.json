@@ -1,0 +1,1631 @@
+{
+  "custom_index": {
+    "num_docs": 680,
+    "analyzer": "WhitespaceAnalyzer (Custom CerpenPreprocessor)",
+    "unique_terms_content": 21573,
+    "total_term_freq_content": 579121
+  },
+  "baseline_index": {
+    "num_docs": 680,
+    "analyzer": "StandardAnalyzer (Lucene Built-in)",
+    "unique_terms_content": 43876,
+    "total_term_freq_content": 1236254
+  },
+  "posting_list_samples_custom": [
+    {
+      "term": "hujan",
+      "field": "content_clean",
+      "df": 195,
+      "total_tf": 550,
+      "postings": [
+        {
+          "lucene_doc_id": 3,
+          "doc_id": "CERPEN-0004",
+          "title": "Museum",
+          "source": "BasaBasi.co",
+          "tf": 12,
+          "positions": [
+            20,
+            48,
+            90,
+            105,
+            121,
+            157,
+            178,
+            207
+          ]
+        },
+        {
+          "lucene_doc_id": 7,
+          "doc_id": "CERPEN-0008",
+          "title": "Secukupnya",
+          "source": "BasaBasi.co",
+          "tf": 6,
+          "positions": [
+            342,
+            348,
+            352,
+            438,
+            464,
+            573
+          ]
+        },
+        {
+          "lucene_doc_id": 10,
+          "doc_id": "CERPEN-0011",
+          "title": "Amira Hanya Ingin Menghadiahi Dirinya Sebuah Robot Humanoid",
+          "source": "BasaBasi.co",
+          "tf": 2,
+          "positions": [
+            320,
+            328
+          ]
+        },
+        {
+          "lucene_doc_id": 13,
+          "doc_id": "CERPEN-0014",
+          "title": "WAJAH SAYA BEKERJA TANPA SAYA",
+          "source": "BasaBasi.co",
+          "tf": 1,
+          "positions": [
+            749
+          ]
+        },
+        {
+          "lucene_doc_id": 15,
+          "doc_id": "CERPEN-0016",
+          "title": "Kematian",
+          "source": "BasaBasi.co",
+          "tf": 1,
+          "positions": [
+            178
+          ]
+        },
+        {
+          "lucene_doc_id": 16,
+          "doc_id": "CERPEN-0017",
+          "title": "Apakah Tuhan Sudah Mati?",
+          "source": "BasaBasi.co",
+          "tf": 6,
+          "positions": [
+            193,
+            240,
+            404,
+            410,
+            450,
+            578
+          ]
+        },
+        {
+          "lucene_doc_id": 17,
+          "doc_id": "CERPEN-0018",
+          "title": "Bagaimana Seorang Penjahat Diciptakan",
+          "source": "BasaBasi.co",
+          "tf": 3,
+          "positions": [
+            263,
+            618,
+            759
+          ]
+        },
+        {
+          "lucene_doc_id": 19,
+          "doc_id": "CERPEN-0020",
+          "title": "Satu Hari Oktober yang Pengap",
+          "source": "BasaBasi.co",
+          "tf": 2,
+          "positions": [
+            88,
+            94
+          ]
+        },
+        {
+          "lucene_doc_id": 21,
+          "doc_id": "CERPEN-0022",
+          "title": "Piano Motinggo",
+          "source": "BasaBasi.co",
+          "tf": 1,
+          "positions": [
+            1509
+          ]
+        },
+        {
+          "lucene_doc_id": 24,
+          "doc_id": "CERPEN-0025",
+          "title": "Sri",
+          "source": "BasaBasi.co",
+          "tf": 2,
+          "positions": [
+            128,
+            537
+          ]
+        }
+      ]
+    },
+    {
+      "term": "rindu",
+      "field": "content_clean",
+      "df": 113,
+      "total_tf": 210,
+      "postings": [
+        {
+          "lucene_doc_id": 0,
+          "doc_id": "CERPEN-0001",
+          "title": "Dua Tahun Tidak Lama",
+          "source": "BasaBasi.co",
+          "tf": 2,
+          "positions": [
+            417,
+            661
+          ]
+        },
+        {
+          "lucene_doc_id": 6,
+          "doc_id": "CERPEN-0007",
+          "title": "Adam dan Esa",
+          "source": "BasaBasi.co",
+          "tf": 2,
+          "positions": [
+            783,
+            890
+          ]
+        },
+        {
+          "lucene_doc_id": 8,
+          "doc_id": "CERPEN-0009",
+          "title": "Seperti Gulma Mikania Micrantha",
+          "source": "BasaBasi.co",
+          "tf": 1,
+          "positions": [
+            454
+          ]
+        },
+        {
+          "lucene_doc_id": 10,
+          "doc_id": "CERPEN-0011",
+          "title": "Amira Hanya Ingin Menghadiahi Dirinya Sebuah Robot Humanoid",
+          "source": "BasaBasi.co",
+          "tf": 3,
+          "positions": [
+            580,
+            595,
+            959
+          ]
+        },
+        {
+          "lucene_doc_id": 14,
+          "doc_id": "CERPEN-0015",
+          "title": "Menentukan Akhir Cerita Pendek",
+          "source": "BasaBasi.co",
+          "tf": 5,
+          "positions": [
+            588,
+            595,
+            709,
+            712,
+            717
+          ]
+        },
+        {
+          "lucene_doc_id": 19,
+          "doc_id": "CERPEN-0020",
+          "title": "Satu Hari Oktober yang Pengap",
+          "source": "BasaBasi.co",
+          "tf": 1,
+          "positions": [
+            693
+          ]
+        },
+        {
+          "lucene_doc_id": 33,
+          "doc_id": "CERPEN-0034",
+          "title": "MENJADI AYAH YANG BAIK",
+          "source": "BasaBasi.co",
+          "tf": 1,
+          "positions": [
+            880
+          ]
+        },
+        {
+          "lucene_doc_id": 37,
+          "doc_id": "CERPEN-0038",
+          "title": "Perjalanan Panjang Benda-Benda",
+          "source": "BasaBasi.co",
+          "tf": 1,
+          "positions": [
+            1078
+          ]
+        },
+        {
+          "lucene_doc_id": 56,
+          "doc_id": "CERPEN-0057",
+          "title": "Ingatan-Ingatan Saridan",
+          "source": "BasaBasi.co",
+          "tf": 1,
+          "positions": [
+            667
+          ]
+        },
+        {
+          "lucene_doc_id": 63,
+          "doc_id": "CERPEN-0064",
+          "title": "Nadira Bicara Sendiri",
+          "source": "BasaBasi.co",
+          "tf": 1,
+          "positions": [
+            162
+          ]
+        }
+      ]
+    },
+    {
+      "term": "cinta",
+      "field": "content_clean",
+      "df": 300,
+      "total_tf": 1272,
+      "postings": [
+        {
+          "lucene_doc_id": 6,
+          "doc_id": "CERPEN-0007",
+          "title": "Adam dan Esa",
+          "source": "BasaBasi.co",
+          "tf": 2,
+          "positions": [
+            820,
+            826
+          ]
+        },
+        {
+          "lucene_doc_id": 8,
+          "doc_id": "CERPEN-0009",
+          "title": "Seperti Gulma Mikania Micrantha",
+          "source": "BasaBasi.co",
+          "tf": 3,
+          "positions": [
+            438,
+            740,
+            771
+          ]
+        },
+        {
+          "lucene_doc_id": 10,
+          "doc_id": "CERPEN-0011",
+          "title": "Amira Hanya Ingin Menghadiahi Dirinya Sebuah Robot Humanoid",
+          "source": "BasaBasi.co",
+          "tf": 1,
+          "positions": [
+            1041
+          ]
+        },
+        {
+          "lucene_doc_id": 11,
+          "doc_id": "CERPEN-0012",
+          "title": "Menonton Konser Artis Ibu Kota",
+          "source": "BasaBasi.co",
+          "tf": 1,
+          "positions": [
+            583
+          ]
+        },
+        {
+          "lucene_doc_id": 14,
+          "doc_id": "CERPEN-0015",
+          "title": "Menentukan Akhir Cerita Pendek",
+          "source": "BasaBasi.co",
+          "tf": 6,
+          "positions": [
+            192,
+            279,
+            292,
+            344,
+            469,
+            575
+          ]
+        },
+        {
+          "lucene_doc_id": 16,
+          "doc_id": "CERPEN-0017",
+          "title": "Apakah Tuhan Sudah Mati?",
+          "source": "BasaBasi.co",
+          "tf": 1,
+          "positions": [
+            574
+          ]
+        },
+        {
+          "lucene_doc_id": 21,
+          "doc_id": "CERPEN-0022",
+          "title": "Piano Motinggo",
+          "source": "BasaBasi.co",
+          "tf": 1,
+          "positions": [
+            1899
+          ]
+        },
+        {
+          "lucene_doc_id": 25,
+          "doc_id": "CERPEN-0026",
+          "title": "Raja Tarkam",
+          "source": "BasaBasi.co",
+          "tf": 3,
+          "positions": [
+            133,
+            379,
+            381
+          ]
+        },
+        {
+          "lucene_doc_id": 26,
+          "doc_id": "CERPEN-0027",
+          "title": "Kaul di Kali Keramat",
+          "source": "BasaBasi.co",
+          "tf": 1,
+          "positions": [
+            149
+          ]
+        },
+        {
+          "lucene_doc_id": 28,
+          "doc_id": "CERPEN-0029",
+          "title": "Hewan Peliharaan",
+          "source": "BasaBasi.co",
+          "tf": 1,
+          "positions": [
+            676
+          ]
+        }
+      ]
+    },
+    {
+      "term": "kopi",
+      "field": "content_clean",
+      "df": 150,
+      "total_tf": 465,
+      "postings": [
+        {
+          "lucene_doc_id": 0,
+          "doc_id": "CERPEN-0001",
+          "title": "Dua Tahun Tidak Lama",
+          "source": "BasaBasi.co",
+          "tf": 1,
+          "positions": [
+            134
+          ]
+        },
+        {
+          "lucene_doc_id": 3,
+          "doc_id": "CERPEN-0004",
+          "title": "Museum",
+          "source": "BasaBasi.co",
+          "tf": 1,
+          "positions": [
+            489
+          ]
+        },
+        {
+          "lucene_doc_id": 4,
+          "doc_id": "CERPEN-0005",
+          "title": "Diorama Dinding Toilet",
+          "source": "BasaBasi.co",
+          "tf": 1,
+          "positions": [
+            81
+          ]
+        },
+        {
+          "lucene_doc_id": 8,
+          "doc_id": "CERPEN-0009",
+          "title": "Seperti Gulma Mikania Micrantha",
+          "source": "BasaBasi.co",
+          "tf": 1,
+          "positions": [
+            210
+          ]
+        },
+        {
+          "lucene_doc_id": 13,
+          "doc_id": "CERPEN-0014",
+          "title": "WAJAH SAYA BEKERJA TANPA SAYA",
+          "source": "BasaBasi.co",
+          "tf": 1,
+          "positions": [
+            630
+          ]
+        },
+        {
+          "lucene_doc_id": 25,
+          "doc_id": "CERPEN-0026",
+          "title": "Raja Tarkam",
+          "source": "BasaBasi.co",
+          "tf": 1,
+          "positions": [
+            690
+          ]
+        },
+        {
+          "lucene_doc_id": 26,
+          "doc_id": "CERPEN-0027",
+          "title": "Kaul di Kali Keramat",
+          "source": "BasaBasi.co",
+          "tf": 1,
+          "positions": [
+            128
+          ]
+        },
+        {
+          "lucene_doc_id": 27,
+          "doc_id": "CERPEN-0028",
+          "title": "Bengkel Terakhir untuk Mir",
+          "source": "BasaBasi.co",
+          "tf": 1,
+          "positions": [
+            228
+          ]
+        },
+        {
+          "lucene_doc_id": 28,
+          "doc_id": "CERPEN-0029",
+          "title": "Hewan Peliharaan",
+          "source": "BasaBasi.co",
+          "tf": 2,
+          "positions": [
+            27,
+            35
+          ]
+        },
+        {
+          "lucene_doc_id": 32,
+          "doc_id": "CERPEN-0033",
+          "title": "Massa Jenis Kesedihan",
+          "source": "BasaBasi.co",
+          "tf": 1,
+          "positions": [
+            221
+          ]
+        }
+      ]
+    },
+    {
+      "term": "ibu",
+      "field": "content_clean",
+      "df": 420,
+      "total_tf": 3981,
+      "postings": [
+        {
+          "lucene_doc_id": 1,
+          "doc_id": "CERPEN-0002",
+          "title": "Usaha Mengingat Dosa",
+          "source": "BasaBasi.co",
+          "tf": 3,
+          "positions": [
+            428,
+            623,
+            633
+          ]
+        },
+        {
+          "lucene_doc_id": 2,
+          "doc_id": "CERPEN-0003",
+          "title": "Obituarium Nama",
+          "source": "BasaBasi.co",
+          "tf": 1,
+          "positions": [
+            507
+          ]
+        },
+        {
+          "lucene_doc_id": 4,
+          "doc_id": "CERPEN-0005",
+          "title": "Diorama Dinding Toilet",
+          "source": "BasaBasi.co",
+          "tf": 8,
+          "positions": [
+            232,
+            236,
+            309,
+            414,
+            441,
+            444,
+            489,
+            541
+          ]
+        },
+        {
+          "lucene_doc_id": 6,
+          "doc_id": "CERPEN-0007",
+          "title": "Adam dan Esa",
+          "source": "BasaBasi.co",
+          "tf": 85,
+          "positions": [
+            4,
+            5,
+            25,
+            29,
+            31,
+            40,
+            41,
+            44
+          ]
+        },
+        {
+          "lucene_doc_id": 10,
+          "doc_id": "CERPEN-0011",
+          "title": "Amira Hanya Ingin Menghadiahi Dirinya Sebuah Robot Humanoid",
+          "source": "BasaBasi.co",
+          "tf": 24,
+          "positions": [
+            146,
+            352,
+            934,
+            948,
+            1010,
+            1015,
+            1037,
+            1050
+          ]
+        },
+        {
+          "lucene_doc_id": 11,
+          "doc_id": "CERPEN-0012",
+          "title": "Menonton Konser Artis Ibu Kota",
+          "source": "BasaBasi.co",
+          "tf": 3,
+          "positions": [
+            11,
+            352,
+            353
+          ]
+        },
+        {
+          "lucene_doc_id": 13,
+          "doc_id": "CERPEN-0014",
+          "title": "WAJAH SAYA BEKERJA TANPA SAYA",
+          "source": "BasaBasi.co",
+          "tf": 3,
+          "positions": [
+            271,
+            294,
+            600
+          ]
+        },
+        {
+          "lucene_doc_id": 14,
+          "doc_id": "CERPEN-0015",
+          "title": "Menentukan Akhir Cerita Pendek",
+          "source": "BasaBasi.co",
+          "tf": 3,
+          "positions": [
+            138,
+            608,
+            609
+          ]
+        },
+        {
+          "lucene_doc_id": 16,
+          "doc_id": "CERPEN-0017",
+          "title": "Apakah Tuhan Sudah Mati?",
+          "source": "BasaBasi.co",
+          "tf": 10,
+          "positions": [
+            46,
+            103,
+            135,
+            173,
+            201,
+            272,
+            331,
+            342
+          ]
+        },
+        {
+          "lucene_doc_id": 19,
+          "doc_id": "CERPEN-0020",
+          "title": "Satu Hari Oktober yang Pengap",
+          "source": "BasaBasi.co",
+          "tf": 13,
+          "positions": [
+            487,
+            495,
+            497,
+            509,
+            521,
+            533,
+            543,
+            548
+          ]
+        }
+      ]
+    },
+    {
+      "term": "malam",
+      "field": "content_clean",
+      "df": 541,
+      "total_tf": 2255,
+      "postings": [
+        {
+          "lucene_doc_id": 0,
+          "doc_id": "CERPEN-0001",
+          "title": "Dua Tahun Tidak Lama",
+          "source": "BasaBasi.co",
+          "tf": 1,
+          "positions": [
+            691
+          ]
+        },
+        {
+          "lucene_doc_id": 1,
+          "doc_id": "CERPEN-0002",
+          "title": "Usaha Mengingat Dosa",
+          "source": "BasaBasi.co",
+          "tf": 4,
+          "positions": [
+            74,
+            88,
+            157,
+            158
+          ]
+        },
+        {
+          "lucene_doc_id": 2,
+          "doc_id": "CERPEN-0003",
+          "title": "Obituarium Nama",
+          "source": "BasaBasi.co",
+          "tf": 3,
+          "positions": [
+            334,
+            496,
+            800
+          ]
+        },
+        {
+          "lucene_doc_id": 3,
+          "doc_id": "CERPEN-0004",
+          "title": "Museum",
+          "source": "BasaBasi.co",
+          "tf": 5,
+          "positions": [
+            302,
+            333,
+            441,
+            479,
+            504
+          ]
+        },
+        {
+          "lucene_doc_id": 4,
+          "doc_id": "CERPEN-0005",
+          "title": "Diorama Dinding Toilet",
+          "source": "BasaBasi.co",
+          "tf": 2,
+          "positions": [
+            115,
+            155
+          ]
+        },
+        {
+          "lucene_doc_id": 5,
+          "doc_id": "CERPEN-0006",
+          "title": "Manajemen Risiko Perbankan",
+          "source": "BasaBasi.co",
+          "tf": 4,
+          "positions": [
+            13,
+            543,
+            560,
+            562
+          ]
+        },
+        {
+          "lucene_doc_id": 6,
+          "doc_id": "CERPEN-0007",
+          "title": "Adam dan Esa",
+          "source": "BasaBasi.co",
+          "tf": 3,
+          "positions": [
+            56,
+            359,
+            665
+          ]
+        },
+        {
+          "lucene_doc_id": 7,
+          "doc_id": "CERPEN-0008",
+          "title": "Secukupnya",
+          "source": "BasaBasi.co",
+          "tf": 2,
+          "positions": [
+            95,
+            347
+          ]
+        },
+        {
+          "lucene_doc_id": 8,
+          "doc_id": "CERPEN-0009",
+          "title": "Seperti Gulma Mikania Micrantha",
+          "source": "BasaBasi.co",
+          "tf": 2,
+          "positions": [
+            301,
+            351
+          ]
+        },
+        {
+          "lucene_doc_id": 9,
+          "doc_id": "CERPEN-0010",
+          "title": "La Nuru Tidur di Perahu itu",
+          "source": "BasaBasi.co",
+          "tf": 5,
+          "positions": [
+            172,
+            233,
+            279,
+            376,
+            443
+          ]
+        }
+      ]
+    },
+    {
+      "term": "desa",
+      "field": "content_clean",
+      "df": 163,
+      "total_tf": 681,
+      "postings": [
+        {
+          "lucene_doc_id": 0,
+          "doc_id": "CERPEN-0001",
+          "title": "Dua Tahun Tidak Lama",
+          "source": "BasaBasi.co",
+          "tf": 5,
+          "positions": [
+            351,
+            408,
+            427,
+            480,
+            627
+          ]
+        },
+        {
+          "lucene_doc_id": 8,
+          "doc_id": "CERPEN-0009",
+          "title": "Seperti Gulma Mikania Micrantha",
+          "source": "BasaBasi.co",
+          "tf": 4,
+          "positions": [
+            124,
+            125,
+            608,
+            613
+          ]
+        },
+        {
+          "lucene_doc_id": 17,
+          "doc_id": "CERPEN-0018",
+          "title": "Bagaimana Seorang Penjahat Diciptakan",
+          "source": "BasaBasi.co",
+          "tf": 1,
+          "positions": [
+            209
+          ]
+        },
+        {
+          "lucene_doc_id": 19,
+          "doc_id": "CERPEN-0020",
+          "title": "Satu Hari Oktober yang Pengap",
+          "source": "BasaBasi.co",
+          "tf": 1,
+          "positions": [
+            387
+          ]
+        },
+        {
+          "lucene_doc_id": 24,
+          "doc_id": "CERPEN-0025",
+          "title": "Sri",
+          "source": "BasaBasi.co",
+          "tf": 1,
+          "positions": [
+            120
+          ]
+        },
+        {
+          "lucene_doc_id": 30,
+          "doc_id": "CERPEN-0031",
+          "title": "Kabar Duka",
+          "source": "BasaBasi.co",
+          "tf": 1,
+          "positions": [
+            182
+          ]
+        },
+        {
+          "lucene_doc_id": 32,
+          "doc_id": "CERPEN-0033",
+          "title": "Massa Jenis Kesedihan",
+          "source": "BasaBasi.co",
+          "tf": 1,
+          "positions": [
+            583
+          ]
+        },
+        {
+          "lucene_doc_id": 34,
+          "doc_id": "CERPEN-0035",
+          "title": "Kala itu Hujan Belum Reda",
+          "source": "BasaBasi.co",
+          "tf": 1,
+          "positions": [
+            313
+          ]
+        },
+        {
+          "lucene_doc_id": 35,
+          "doc_id": "CERPEN-0036",
+          "title": "Geunteut",
+          "source": "BasaBasi.co",
+          "tf": 1,
+          "positions": [
+            854
+          ]
+        },
+        {
+          "lucene_doc_id": 36,
+          "doc_id": "CERPEN-0037",
+          "title": "SYARIFAH",
+          "source": "BasaBasi.co",
+          "tf": 3,
+          "positions": [
+            382,
+            577,
+            579
+          ]
+        }
+      ]
+    },
+    {
+      "term": "mati",
+      "field": "content_clean",
+      "df": 480,
+      "total_tf": 1927,
+      "postings": [
+        {
+          "lucene_doc_id": 0,
+          "doc_id": "CERPEN-0001",
+          "title": "Dua Tahun Tidak Lama",
+          "source": "BasaBasi.co",
+          "tf": 4,
+          "positions": [
+            420,
+            443,
+            460,
+            486
+          ]
+        },
+        {
+          "lucene_doc_id": 1,
+          "doc_id": "CERPEN-0002",
+          "title": "Usaha Mengingat Dosa",
+          "source": "BasaBasi.co",
+          "tf": 1,
+          "positions": [
+            48
+          ]
+        },
+        {
+          "lucene_doc_id": 2,
+          "doc_id": "CERPEN-0003",
+          "title": "Obituarium Nama",
+          "source": "BasaBasi.co",
+          "tf": 1,
+          "positions": [
+            470
+          ]
+        },
+        {
+          "lucene_doc_id": 4,
+          "doc_id": "CERPEN-0005",
+          "title": "Diorama Dinding Toilet",
+          "source": "BasaBasi.co",
+          "tf": 5,
+          "positions": [
+            407,
+            410,
+            478,
+            567,
+            631
+          ]
+        },
+        {
+          "lucene_doc_id": 6,
+          "doc_id": "CERPEN-0007",
+          "title": "Adam dan Esa",
+          "source": "BasaBasi.co",
+          "tf": 1,
+          "positions": [
+            487
+          ]
+        },
+        {
+          "lucene_doc_id": 7,
+          "doc_id": "CERPEN-0008",
+          "title": "Secukupnya",
+          "source": "BasaBasi.co",
+          "tf": 1,
+          "positions": [
+            99
+          ]
+        },
+        {
+          "lucene_doc_id": 8,
+          "doc_id": "CERPEN-0009",
+          "title": "Seperti Gulma Mikania Micrantha",
+          "source": "BasaBasi.co",
+          "tf": 1,
+          "positions": [
+            147
+          ]
+        },
+        {
+          "lucene_doc_id": 9,
+          "doc_id": "CERPEN-0010",
+          "title": "La Nuru Tidur di Perahu itu",
+          "source": "BasaBasi.co",
+          "tf": 4,
+          "positions": [
+            168,
+            265,
+            325,
+            480
+          ]
+        },
+        {
+          "lucene_doc_id": 15,
+          "doc_id": "CERPEN-0016",
+          "title": "Kematian",
+          "source": "BasaBasi.co",
+          "tf": 10,
+          "positions": [
+            73,
+            153,
+            271,
+            344,
+            434,
+            444,
+            578,
+            627
+          ]
+        },
+        {
+          "lucene_doc_id": 16,
+          "doc_id": "CERPEN-0017",
+          "title": "Apakah Tuhan Sudah Mati?",
+          "source": "BasaBasi.co",
+          "tf": 15,
+          "positions": [
+            2,
+            75,
+            99,
+            107,
+            110,
+            132,
+            311,
+            332
+          ]
+        }
+      ]
+    },
+    {
+      "term": "laut",
+      "field": "content_clean",
+      "df": 137,
+      "total_tf": 632,
+      "postings": [
+        {
+          "lucene_doc_id": 5,
+          "doc_id": "CERPEN-0006",
+          "title": "Manajemen Risiko Perbankan",
+          "source": "BasaBasi.co",
+          "tf": 1,
+          "positions": [
+            445
+          ]
+        },
+        {
+          "lucene_doc_id": 6,
+          "doc_id": "CERPEN-0007",
+          "title": "Adam dan Esa",
+          "source": "BasaBasi.co",
+          "tf": 1,
+          "positions": [
+            179
+          ]
+        },
+        {
+          "lucene_doc_id": 9,
+          "doc_id": "CERPEN-0010",
+          "title": "La Nuru Tidur di Perahu itu",
+          "source": "BasaBasi.co",
+          "tf": 14,
+          "positions": [
+            4,
+            56,
+            62,
+            129,
+            137,
+            142,
+            210,
+            253
+          ]
+        },
+        {
+          "lucene_doc_id": 16,
+          "doc_id": "CERPEN-0017",
+          "title": "Apakah Tuhan Sudah Mati?",
+          "source": "BasaBasi.co",
+          "tf": 2,
+          "positions": [
+            406,
+            407
+          ]
+        },
+        {
+          "lucene_doc_id": 17,
+          "doc_id": "CERPEN-0018",
+          "title": "Bagaimana Seorang Penjahat Diciptakan",
+          "source": "BasaBasi.co",
+          "tf": 1,
+          "positions": [
+            303
+          ]
+        },
+        {
+          "lucene_doc_id": 19,
+          "doc_id": "CERPEN-0020",
+          "title": "Satu Hari Oktober yang Pengap",
+          "source": "BasaBasi.co",
+          "tf": 1,
+          "positions": [
+            241
+          ]
+        },
+        {
+          "lucene_doc_id": 23,
+          "doc_id": "CERPEN-0024",
+          "title": "Malahayati dan Cornelis",
+          "source": "BasaBasi.co",
+          "tf": 2,
+          "positions": [
+            467,
+            722
+          ]
+        },
+        {
+          "lucene_doc_id": 29,
+          "doc_id": "CERPEN-0030",
+          "title": "Versi-versi Singkat Riwayat Jamal Tirakat",
+          "source": "BasaBasi.co",
+          "tf": 2,
+          "positions": [
+            581,
+            608
+          ]
+        },
+        {
+          "lucene_doc_id": 30,
+          "doc_id": "CERPEN-0031",
+          "title": "Kabar Duka",
+          "source": "BasaBasi.co",
+          "tf": 2,
+          "positions": [
+            89,
+            103
+          ]
+        },
+        {
+          "lucene_doc_id": 42,
+          "doc_id": "CERPEN-0043",
+          "title": "Tubuh Sepanjang Ngarai",
+          "source": "BasaBasi.co",
+          "tf": 1,
+          "positions": [
+            219
+          ]
+        }
+      ]
+    },
+    {
+      "term": "rumah",
+      "field": "content_clean",
+      "df": 585,
+      "total_tf": 4418,
+      "postings": [
+        {
+          "lucene_doc_id": 0,
+          "doc_id": "CERPEN-0001",
+          "title": "Dua Tahun Tidak Lama",
+          "source": "BasaBasi.co",
+          "tf": 9,
+          "positions": [
+            45,
+            58,
+            394,
+            406,
+            467,
+            475,
+            477,
+            657
+          ]
+        },
+        {
+          "lucene_doc_id": 1,
+          "doc_id": "CERPEN-0002",
+          "title": "Usaha Mengingat Dosa",
+          "source": "BasaBasi.co",
+          "tf": 4,
+          "positions": [
+            1,
+            181,
+            444,
+            540
+          ]
+        },
+        {
+          "lucene_doc_id": 2,
+          "doc_id": "CERPEN-0003",
+          "title": "Obituarium Nama",
+          "source": "BasaBasi.co",
+          "tf": 4,
+          "positions": [
+            337,
+            352,
+            571,
+            776
+          ]
+        },
+        {
+          "lucene_doc_id": 3,
+          "doc_id": "CERPEN-0004",
+          "title": "Museum",
+          "source": "BasaBasi.co",
+          "tf": 7,
+          "positions": [
+            0,
+            86,
+            93,
+            236,
+            269,
+            319,
+            467
+          ]
+        },
+        {
+          "lucene_doc_id": 4,
+          "doc_id": "CERPEN-0005",
+          "title": "Diorama Dinding Toilet",
+          "source": "BasaBasi.co",
+          "tf": 2,
+          "positions": [
+            247,
+            439
+          ]
+        },
+        {
+          "lucene_doc_id": 5,
+          "doc_id": "CERPEN-0006",
+          "title": "Manajemen Risiko Perbankan",
+          "source": "BasaBasi.co",
+          "tf": 1,
+          "positions": [
+            76
+          ]
+        },
+        {
+          "lucene_doc_id": 6,
+          "doc_id": "CERPEN-0007",
+          "title": "Adam dan Esa",
+          "source": "BasaBasi.co",
+          "tf": 2,
+          "positions": [
+            451,
+            846
+          ]
+        },
+        {
+          "lucene_doc_id": 7,
+          "doc_id": "CERPEN-0008",
+          "title": "Secukupnya",
+          "source": "BasaBasi.co",
+          "tf": 1,
+          "positions": [
+            494
+          ]
+        },
+        {
+          "lucene_doc_id": 8,
+          "doc_id": "CERPEN-0009",
+          "title": "Seperti Gulma Mikania Micrantha",
+          "source": "BasaBasi.co",
+          "tf": 1,
+          "positions": [
+            378
+          ]
+        },
+        {
+          "lucene_doc_id": 9,
+          "doc_id": "CERPEN-0010",
+          "title": "La Nuru Tidur di Perahu itu",
+          "source": "BasaBasi.co",
+          "tf": 7,
+          "positions": [
+            77,
+            174,
+            180,
+            369,
+            378,
+            393,
+            426
+          ]
+        }
+      ]
+    }
+  ],
+  "posting_list_samples_baseline": [
+    {
+      "term": "hujan",
+      "field": "content_raw",
+      "df": 177,
+      "total_tf": 495,
+      "postings": [
+        {
+          "lucene_doc_id": 3,
+          "doc_id": "CERPEN-0004",
+          "title": "Museum",
+          "source": "BasaBasi.co",
+          "tf": 12,
+          "positions": [
+            37,
+            88,
+            188,
+            234,
+            265,
+            323,
+            372,
+            424
+          ]
+        },
+        {
+          "lucene_doc_id": 7,
+          "doc_id": "CERPEN-0008",
+          "title": "Secukupnya",
+          "source": "BasaBasi.co",
+          "tf": 6,
+          "positions": [
+            700,
+            717,
+            723,
+            913,
+            999,
+            1235
+          ]
+        },
+        {
+          "lucene_doc_id": 10,
+          "doc_id": "CERPEN-0011",
+          "title": "Amira Hanya Ingin Menghadiahi Dirinya Sebuah Robot Humanoid",
+          "source": "BasaBasi.co",
+          "tf": 1,
+          "positions": [
+            627
+          ]
+        },
+        {
+          "lucene_doc_id": 13,
+          "doc_id": "CERPEN-0014",
+          "title": "WAJAH SAYA BEKERJA TANPA SAYA",
+          "source": "BasaBasi.co",
+          "tf": 1,
+          "positions": [
+            1712
+          ]
+        },
+        {
+          "lucene_doc_id": 15,
+          "doc_id": "CERPEN-0016",
+          "title": "Kematian",
+          "source": "BasaBasi.co",
+          "tf": 1,
+          "positions": [
+            439
+          ]
+        },
+        {
+          "lucene_doc_id": 16,
+          "doc_id": "CERPEN-0017",
+          "title": "Apakah Tuhan Sudah Mati?",
+          "source": "BasaBasi.co",
+          "tf": 6,
+          "positions": [
+            391,
+            471,
+            817,
+            832,
+            913,
+            1206
+          ]
+        },
+        {
+          "lucene_doc_id": 17,
+          "doc_id": "CERPEN-0018",
+          "title": "Bagaimana Seorang Penjahat Diciptakan",
+          "source": "BasaBasi.co",
+          "tf": 1,
+          "positions": [
+            1485
+          ]
+        },
+        {
+          "lucene_doc_id": 19,
+          "doc_id": "CERPEN-0020",
+          "title": "Satu Hari Oktober yang Pengap",
+          "source": "BasaBasi.co",
+          "tf": 2,
+          "positions": [
+            216,
+            236
+          ]
+        },
+        {
+          "lucene_doc_id": 24,
+          "doc_id": "CERPEN-0025",
+          "title": "Sri",
+          "source": "BasaBasi.co",
+          "tf": 2,
+          "positions": [
+            312,
+            1377
+          ]
+        },
+        {
+          "lucene_doc_id": 25,
+          "doc_id": "CERPEN-0026",
+          "title": "Raja Tarkam",
+          "source": "BasaBasi.co",
+          "tf": 2,
+          "positions": [
+            1023,
+            1525
+          ]
+        }
+      ]
+    },
+    {
+      "term": "rindu",
+      "field": "content_raw",
+      "df": 63,
+      "total_tf": 120,
+      "postings": [
+        {
+          "lucene_doc_id": 0,
+          "doc_id": "CERPEN-0001",
+          "title": "Dua Tahun Tidak Lama",
+          "source": "BasaBasi.co",
+          "tf": 1,
+          "positions": [
+            1060
+          ]
+        },
+        {
+          "lucene_doc_id": 8,
+          "doc_id": "CERPEN-0009",
+          "title": "Seperti Gulma Mikania Micrantha",
+          "source": "BasaBasi.co",
+          "tf": 1,
+          "positions": [
+            892
+          ]
+        },
+        {
+          "lucene_doc_id": 10,
+          "doc_id": "CERPEN-0011",
+          "title": "Amira Hanya Ingin Menghadiahi Dirinya Sebuah Robot Humanoid",
+          "source": "BasaBasi.co",
+          "tf": 3,
+          "positions": [
+            1146,
+            1173,
+            1849
+          ]
+        },
+        {
+          "lucene_doc_id": 14,
+          "doc_id": "CERPEN-0015",
+          "title": "Menentukan Akhir Cerita Pendek",
+          "source": "BasaBasi.co",
+          "tf": 5,
+          "positions": [
+            1248,
+            1265,
+            1510,
+            1518,
+            1524
+          ]
+        },
+        {
+          "lucene_doc_id": 19,
+          "doc_id": "CERPEN-0020",
+          "title": "Satu Hari Oktober yang Pengap",
+          "source": "BasaBasi.co",
+          "tf": 1,
+          "positions": [
+            1801
+          ]
+        },
+        {
+          "lucene_doc_id": 56,
+          "doc_id": "CERPEN-0057",
+          "title": "Ingatan-Ingatan Saridan",
+          "source": "BasaBasi.co",
+          "tf": 1,
+          "positions": [
+            1138
+          ]
+        },
+        {
+          "lucene_doc_id": 63,
+          "doc_id": "CERPEN-0064",
+          "title": "Nadira Bicara Sendiri",
+          "source": "BasaBasi.co",
+          "tf": 1,
+          "positions": [
+            383
+          ]
+        },
+        {
+          "lucene_doc_id": 64,
+          "doc_id": "CERPEN-0065",
+          "title": "Solilokui dalam Tiga Fragmen Pembunuhan",
+          "source": "BasaBasi.co",
+          "tf": 1,
+          "positions": [
+            35
+          ]
+        },
+        {
+          "lucene_doc_id": 65,
+          "doc_id": "CERPEN-0066",
+          "title": "Dapur di Kepala Ibu",
+          "source": "BasaBasi.co",
+          "tf": 1,
+          "positions": [
+            1116
+          ]
+        },
+        {
+          "lucene_doc_id": 70,
+          "doc_id": "CERPEN-0071",
+          "title": "Ayahku Tumbuh di Halaman Belakang",
+          "source": "BasaBasi.co",
+          "tf": 1,
+          "positions": [
+            726
+          ]
+        }
+      ]
+    },
+    {
+      "term": "cinta",
+      "field": "content_raw",
+      "df": 189,
+      "total_tf": 640,
+      "postings": [
+        {
+          "lucene_doc_id": 8,
+          "doc_id": "CERPEN-0009",
+          "title": "Seperti Gulma Mikania Micrantha",
+          "source": "BasaBasi.co",
+          "tf": 2,
+          "positions": [
+            856,
+            1500
+          ]
+        },
+        {
+          "lucene_doc_id": 10,
+          "doc_id": "CERPEN-0011",
+          "title": "Amira Hanya Ingin Menghadiahi Dirinya Sebuah Robot Humanoid",
+          "source": "BasaBasi.co",
+          "tf": 1,
+          "positions": [
+            2011
+          ]
+        },
+        {
+          "lucene_doc_id": 11,
+          "doc_id": "CERPEN-0012",
+          "title": "Menonton Konser Artis Ibu Kota",
+          "source": "BasaBasi.co",
+          "tf": 1,
+          "positions": [
+            1162
+          ]
+        },
+        {
+          "lucene_doc_id": 14,
+          "doc_id": "CERPEN-0015",
+          "title": "Menentukan Akhir Cerita Pendek",
+          "source": "BasaBasi.co",
+          "tf": 5,
+          "positions": [
+            421,
+            578,
+            604,
+            707,
+            987
+          ]
+        },
+        {
+          "lucene_doc_id": 21,
+          "doc_id": "CERPEN-0022",
+          "title": "Piano Motinggo",
+          "source": "BasaBasi.co",
+          "tf": 1,
+          "positions": [
+            3208
+          ]
+        },
+        {
+          "lucene_doc_id": 25,
+          "doc_id": "CERPEN-0026",
+          "title": "Raja Tarkam",
+          "source": "BasaBasi.co",
+          "tf": 1,
+          "positions": [
+            850
+          ]
+        },
+        {
+          "lucene_doc_id": 26,
+          "doc_id": "CERPEN-0027",
+          "title": "Kaul di Kali Keramat",
+          "source": "BasaBasi.co",
+          "tf": 1,
+          "positions": [
+            369
+          ]
+        },
+        {
+          "lucene_doc_id": 29,
+          "doc_id": "CERPEN-0030",
+          "title": "Versi-versi Singkat Riwayat Jamal Tirakat",
+          "source": "BasaBasi.co",
+          "tf": 3,
+          "positions": [
+            433,
+            445,
+            1534
+          ]
+        },
+        {
+          "lucene_doc_id": 32,
+          "doc_id": "CERPEN-0033",
+          "title": "Massa Jenis Kesedihan",
+          "source": "BasaBasi.co",
+          "tf": 1,
+          "positions": [
+            261
+          ]
+        },
+        {
+          "lucene_doc_id": 35,
+          "doc_id": "CERPEN-0036",
+          "title": "Geunteut",
+          "source": "BasaBasi.co",
+          "tf": 1,
+          "positions": [
+            1560
+          ]
+        }
+      ]
+    }
+  ]
+}

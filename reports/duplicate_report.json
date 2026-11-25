@@ -1,0 +1,93 @@
+{
+  "total_crawled": 680,
+  "exact_url_duplicates": 0,
+  "exact_hash_duplicates": 0,
+  "near_duplicates_gt_95": 0,
+  "total_removed": 0,
+  "total_unique_documents": 680,
+  "threshold": 0.95,
+  "max_similarity_among_unique": 0.716882,
+  "removed_pairs": [],
+  "top_10_most_similar_remaining_pairs": [
+    {
+      "doc_1_id": "CERPEN-0213",
+      "doc_1_title": "Randuse dan Hal-Hal Ganjil",
+      "doc_2_id": "CERPEN-0320",
+      "doc_2_title": "Randuse Merasa Jadi Manusia Paling Hina di Muka Bumi Ini",
+      "cosine_similarity": 0.716882,
+      "status": "kept (< 95%)"
+    },
+    {
+      "doc_1_id": "CERPEN-0082",
+      "doc_1_title": "Ayam Tetangga",
+      "doc_2_id": "CERPEN-0098",
+      "doc_2_title": "DALAM, SAMPAI TERISAP DALAM",
+      "cosine_similarity": 0.64853,
+      "status": "kept (< 95%)"
+    },
+    {
+      "doc_1_id": "CERPEN-0130",
+      "doc_1_title": "Sumini Ingin Mengelus Rambut Tentara Israel",
+      "doc_2_id": "CERPEN-0213",
+      "doc_2_title": "Randuse dan Hal-Hal Ganjil",
+      "cosine_similarity": 0.648214,
+      "status": "kept (< 95%)"
+    },
+    {
+      "doc_1_id": "CERPEN-0437",
+      "doc_1_title": "Ia Tidak Boleh Beranjak Besar",
+      "doc_2_id": "CERPEN-0535",
+      "doc_2_title": "Menara Burung Hantu – Cerpen Gustave Aimard",
+      "cosine_similarity": 0.642128,
+      "status": "kept (< 95%)"
+    },
+    {
+      "doc_1_id": "CERPEN-0072",
+      "doc_1_title": "Pengarang Itu Membunuh Tokoh Utama Kita dalam Tiga Babak",
+      "doc_2_id": "CERPEN-0437",
+      "doc_2_title": "Ia Tidak Boleh Beranjak Besar",
+      "cosine_similarity": 0.62851,
+      "status": "kept (< 95%)"
+    },
+    {
+      "doc_1_id": "CERPEN-0098",
+      "doc_1_title": "DALAM, SAMPAI TERISAP DALAM",
+      "doc_2_id": "CERPEN-0535",
+      "doc_2_title": "Menara Burung Hantu – Cerpen Gustave Aimard",
+      "cosine_similarity": 0.620503,
+      "status": "kept (< 95%)"
+    },
+    {
+      "doc_1_id": "CERPEN-0072",
+      "doc_1_title": "Pengarang Itu Membunuh Tokoh Utama Kita dalam Tiga Babak",
+      "doc_2_id": "CERPEN-0535",
+      "doc_2_title": "Menara Burung Hantu – Cerpen Gustave Aimard",
+      "cosine_similarity": 0.61531,
+      "status": "kept (< 95%)"
+    },
+    {
+      "doc_1_id": "CERPEN-0072",
+      "doc_1_title": "Pengarang Itu Membunuh Tokoh Utama Kita dalam Tiga Babak",
+      "doc_2_id": "CERPEN-0098",
+      "doc_2_title": "DALAM, SAMPAI TERISAP DALAM",
+      "cosine_similarity": 0.606824,
+      "status": "kept (< 95%)"
+    },
+    {
+      "doc_1_id": "CERPEN-0098",
+      "doc_1_title": "DALAM, SAMPAI TERISAP DALAM",
+      "doc_2_id": "CERPEN-0437",
+      "doc_2_title": "Ia Tidak Boleh Beranjak Besar",
+      "cosine_similarity": 0.598234,
+      "status": "kept (< 95%)"
+    },
+    {
+      "doc_1_id": "CERPEN-0064",
+      "doc_1_title": "Nadira Bicara Sendiri",
+      "doc_2_id": "CERPEN-0535",
+      "doc_2_title": "Menara Burung Hantu – Cerpen Gustave Aimard",
+      "cosine_similarity": 0.597832,
+      "status": "kept (< 95%)"
+    }
+  ]
+}

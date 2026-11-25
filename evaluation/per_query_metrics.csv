@@ -1,0 +1,49 @@
+﻿config,label,query_id,query,relevant_in_pool,relevant_retrieved_top10,precision_at_10,recall,f1,ap
+bm25_custom,BM25 + Custom Analyzer,Q01,hujan deras di malam hari,8,6,0.6,0.75,0.6667,0.75
+bm25_custom,BM25 + Custom Analyzer,Q02,kerinduan pada ibu di kampung,9,5,0.5,0.5556,0.5263,0.3321
+bm25_custom,BM25 + Custom Analyzer,Q03,kopi pahit di warung pinggir jalan,6,4,0.4,0.6667,0.5,0.5139
+bm25_custom,BM25 + Custom Analyzer,Q04,kematian dan pemakaman di desa,15,7,0.7,0.4667,0.56,0.4179
+bm25_custom,BM25 + Custom Analyzer,Q05,kereta malam dan perpisahan di stasiun,6,5,0.5,0.8333,0.625,0.4421
+bm25_custom,BM25 + Custom Analyzer,Q06,nelayan dan ombak laut pesisir,10,10,1.0,1.0,1.0,1.0
+bm25_custom,BM25 + Custom Analyzer,Q07,surat cinta yang tak pernah terkirim,5,5,0.5,1.0,0.6667,0.7111
+bm25_custom,BM25 + Custom Analyzer,Q08,ayah bekerja keras demi anak,7,7,0.7,1.0,0.8235,0.9821
+bm25_custom,BM25 + Custom Analyzer,Q09,kesepian di kota besar,10,9,0.9,0.9,0.9,0.8789
+bm25_custom,BM25 + Custom Analyzer,Q10,rumah tua penuh kenangan masa kecil,10,7,0.7,0.7,0.7,0.6528
+bm25_custom,BM25 + Custom Analyzer,Q11,suara azan subuh dan doa di masjid,11,7,0.7,0.6364,0.6667,0.588
+bm25_custom,BM25 + Custom Analyzer,Q12,pohon beringin dan cerita mistis hutan,11,9,0.9,0.8182,0.8571,0.7413
+tfidf_custom,TF-IDF Klasik + Custom Analyzer,Q01,hujan deras di malam hari,8,5,0.5,0.625,0.5556,0.4621
+tfidf_custom,TF-IDF Klasik + Custom Analyzer,Q02,kerinduan pada ibu di kampung,9,4,0.4,0.4444,0.4211,0.2302
+tfidf_custom,TF-IDF Klasik + Custom Analyzer,Q03,kopi pahit di warung pinggir jalan,6,3,0.3,0.5,0.375,0.3492
+tfidf_custom,TF-IDF Klasik + Custom Analyzer,Q04,kematian dan pemakaman di desa,15,7,0.7,0.4667,0.56,0.3939
+tfidf_custom,TF-IDF Klasik + Custom Analyzer,Q05,kereta malam dan perpisahan di stasiun,6,1,0.1,0.1667,0.125,0.1667
+tfidf_custom,TF-IDF Klasik + Custom Analyzer,Q06,nelayan dan ombak laut pesisir,10,10,1.0,1.0,1.0,1.0
+tfidf_custom,TF-IDF Klasik + Custom Analyzer,Q07,surat cinta yang tak pernah terkirim,5,4,0.4,0.8,0.5333,0.48
+tfidf_custom,TF-IDF Klasik + Custom Analyzer,Q08,ayah bekerja keras demi anak,7,7,0.7,1.0,0.8235,0.9617
+tfidf_custom,TF-IDF Klasik + Custom Analyzer,Q09,kesepian di kota besar,10,7,0.7,0.7,0.7,0.6875
+tfidf_custom,TF-IDF Klasik + Custom Analyzer,Q10,rumah tua penuh kenangan masa kecil,10,8,0.8,0.8,0.8,0.6485
+tfidf_custom,TF-IDF Klasik + Custom Analyzer,Q11,suara azan subuh dan doa di masjid,11,9,0.9,0.8182,0.8571,0.7876
+tfidf_custom,TF-IDF Klasik + Custom Analyzer,Q12,pohon beringin dan cerita mistis hutan,11,7,0.7,0.6364,0.6667,0.5864
+bm25_baseline,BM25 + StandardAnalyzer (Baseline),Q01,hujan deras di malam hari,8,8,0.8,1.0,0.8889,0.9318
+bm25_baseline,BM25 + StandardAnalyzer (Baseline),Q02,kerinduan pada ibu di kampung,9,4,0.4,0.4444,0.4211,0.2746
+bm25_baseline,BM25 + StandardAnalyzer (Baseline),Q03,kopi pahit di warung pinggir jalan,6,6,0.6,1.0,0.75,0.7597
+bm25_baseline,BM25 + StandardAnalyzer (Baseline),Q04,kematian dan pemakaman di desa,15,7,0.7,0.4667,0.56,0.2887
+bm25_baseline,BM25 + StandardAnalyzer (Baseline),Q05,kereta malam dan perpisahan di stasiun,6,5,0.5,0.8333,0.625,0.6552
+bm25_baseline,BM25 + StandardAnalyzer (Baseline),Q06,nelayan dan ombak laut pesisir,10,9,0.9,0.9,0.9,0.9
+bm25_baseline,BM25 + StandardAnalyzer (Baseline),Q07,surat cinta yang tak pernah terkirim,5,4,0.4,0.8,0.5333,0.4089
+bm25_baseline,BM25 + StandardAnalyzer (Baseline),Q08,ayah bekerja keras demi anak,7,6,0.6,0.8571,0.7059,0.7571
+bm25_baseline,BM25 + StandardAnalyzer (Baseline),Q09,kesepian di kota besar,10,8,0.8,0.8,0.8,0.6915
+bm25_baseline,BM25 + StandardAnalyzer (Baseline),Q10,rumah tua penuh kenangan masa kecil,10,8,0.8,0.8,0.8,0.8
+bm25_baseline,BM25 + StandardAnalyzer (Baseline),Q11,suara azan subuh dan doa di masjid,11,6,0.6,0.5455,0.5714,0.5227
+bm25_baseline,BM25 + StandardAnalyzer (Baseline),Q12,pohon beringin dan cerita mistis hutan,11,6,0.6,0.5455,0.5714,0.3583
+bm25_custom_qe,BM25 + Custom + Query Expansion,Q01,hujan deras di malam hari,8,7,0.7,0.875,0.7778,0.8594
+bm25_custom_qe,BM25 + Custom + Query Expansion,Q02,kerinduan pada ibu di kampung,9,5,0.5,0.5556,0.5263,0.4105
+bm25_custom_qe,BM25 + Custom + Query Expansion,Q03,kopi pahit di warung pinggir jalan,6,4,0.4,0.6667,0.5,0.6333
+bm25_custom_qe,BM25 + Custom + Query Expansion,Q04,kematian dan pemakaman di desa,15,7,0.7,0.4667,0.56,0.3976
+bm25_custom_qe,BM25 + Custom + Query Expansion,Q05,kereta malam dan perpisahan di stasiun,6,4,0.4,0.6667,0.5,0.5952
+bm25_custom_qe,BM25 + Custom + Query Expansion,Q06,nelayan dan ombak laut pesisir,10,9,0.9,0.9,0.9,0.8789
+bm25_custom_qe,BM25 + Custom + Query Expansion,Q07,surat cinta yang tak pernah terkirim,5,5,0.5,1.0,0.6667,0.7254
+bm25_custom_qe,BM25 + Custom + Query Expansion,Q08,ayah bekerja keras demi anak,7,7,0.7,1.0,0.8235,0.9821
+bm25_custom_qe,BM25 + Custom + Query Expansion,Q09,kesepian di kota besar,10,7,0.7,0.7,0.7,0.6732
+bm25_custom_qe,BM25 + Custom + Query Expansion,Q10,rumah tua penuh kenangan masa kecil,10,6,0.6,0.6,0.6,0.48
+bm25_custom_qe,BM25 + Custom + Query Expansion,Q11,suara azan subuh dan doa di masjid,11,7,0.7,0.6364,0.6667,0.588
+bm25_custom_qe,BM25 + Custom + Query Expansion,Q12,pohon beringin dan cerita mistis hutan,11,9,0.9,0.8182,0.8571,0.7595
